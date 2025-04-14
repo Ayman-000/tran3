@@ -1,0 +1,4 @@
+flask>=2.0.0
+ipaddress>=1.0.23
+requests>=2.26.0
+redis>=4.0.0  # Optional: for rate limiting implementation 

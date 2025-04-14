@@ -1,0 +1,475 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tranferto - Money Transfer and Online Payments HTML Template</title>
+
+    <link rel="shortcut icon" href="assets/img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="assets/css/custom-family.css">
+    <link rel="stylesheet" href="assets/css/plugin/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="assets/css/plugin/select2.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-rtl.min.css" id="rtl-stylesheet" disabled>
+</head>
+
+<body>
+
+    <!-- start LTR to RTL -->
+    
+    <!-- end LTR to RTL -->
+
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar d-flex navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="index.html">
+                            <img   style="height: 150px; width: 150px;"   src="assets/img/logo.png" class="logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active " href="javascript:void(0)" role=""
+                                        data-bs-toggle="">
+                                        Home
+                                    </a>
+                                  
+                              
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="our-team.html">Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                   
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">contact us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="javascript:void(0)" role="button"
+                                        data-bs-toggle="dropdown">
+                                        
+                                    </a>
+                                    <div class="dropdown-menu show mega-menu">
+                                        <ul class="dropdown">
+                                            <li><a class="nav-item" href="about-us.html">About Us</a></li>
+                                            <li><a class="nav-item" href="careers.html">Careers</a></li>
+                                            <li><a class="nav-item" href="fees.html">Fees</a></li>
+                                            <li><a class="nav-item" href="open-positions.html">Open Positions</a></li>
+                                            <li><a class="nav-item" href="our-team.html">Our Team</a></li>
+                                            <li><a class="nav-item" href="privacy-policy.html">Privacy Policy</a></li>
+                                            <li><a class="nav-item" href="countries.html">Countries</a></li>
+                                            <li><a class="nav-item" href="team-details.html">Team Details</a></li>
+                                            <li><a class="nav-item" href="terms-conditions.html">Terms Conditions</a></li>
+                                            <li><a class="nav-item" href="reviews.html">Reviews</a></li>
+                                            <li><a class="nav-item" href="how-works.html">How Works</a></li>
+                                            <li><a class="nav-item" href="faqs.html">Faq</a></li>
+                                            <li><a class="nav-item" href="login.html">Login 1</a></li>
+                                            <li><a class="nav-item" href="login-2.html">Login 2</a></li>
+                                            <li><a class="nav-item" href="register.html">Register 1</a></li>
+                                            <li><a class="nav-item" href="register-2.html">Register 2</a></li>
+                                            <li><a class="nav-item" href="forgot-password.html">Forgot Password 1</a></li>
+                                            <li><a class="nav-item" href="forgot-password-2.html">Forgot Password 2</a></li>
+                                            <li><a class="nav-item" href="reset-password.html">Reset Password</a></li>
+                                            <li><a class="nav-item" href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a class="nav-item" href="404.html">404</a></li>
+                                            <li><a class="nav-item" href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="javascript:void(0)" role="button"
+                                        data-bs-toggle="dropdown">
+                                        
+                                    </a>
+                                    <ul class="dropdown-menu show">
+                                        <li><a class="nav-item" href="help-center.html">Help Center 1</a></li>
+                                        <li><a class="nav-item" href="help-center-2.html">Help Center 2</a></li>
+                                        <li><a class="nav-item" href="help-center-details.html">Help Center Details</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="right-area header-action d-flex align-items-center">
+                                <div class="lang d-flex align-items-center">
+                                    
+                                <a href="login-2.html" class="cmn-btn login">Login</a>
+                                <a href="register-2.html" class="cmn-btn">Sign up</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- banner-section start -->
+    <section class="banner-section inner-pages about-us">
+        <div class="overlay">
+            <div class="banner-content pb-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-10">
+                            <div class="main-content">
+                                <h1>About Us</h1>
+                                <div class="breadcrumb-area">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb d-flex gap-1 align-items-center">
+                                            <li class="breadcrumb-item p-0 position-relative"><a href="index.html">Home</a></li>
+                                            <li class="breadcrumb-item p-0 position-relative"><a href="javascript:void(0)">Pages</a></li>
+                                            <li class="breadcrumb-item p-0 position-relative active" aria-current="page">About Us</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-bottom-area pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="top-area">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <img src="assets/img/about-us-banner.png" alt="image">
+                                    <h2>We are a smart kind of money transfer company</h2>
+                                    <p>Welcome to Tranferto. For a lot of people who work abroad away from home, sending money to another country can be a necessity. Companies also may have to send money to other countries if they are multinational to pay their employees or making Invoice Payments. However, there can be a number of obstacles that stand in the way of what should be a relatively easy task. Obstacles like high exchange rates, costly processes, and timing can end up becoming very time consuming and expensive in some cases.</p>
+                                    <p>Finding a way to successfully transfer money from one country to another without incurring high fees can be difficult. Finding a money transfer company that operates at a reasonable price with transparent services can be especially difficult. But not with Tranferto. Tranferto is different</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bottom-content">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="single-item d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="assets/img/about-banner-icon1.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3>100</h3>
+                                        <p>Country</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="single-item d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="assets/img/about-banner-icon2.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3>200</h3>
+                                        <p>Currency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="single-item d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="assets/img/about-banner-icon3.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3>95%</h3>
+                                        <p>Satisfaction</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="single-item d-flex align-items-center b-none">
+                                    <div class="icon">
+                                        <img src="assets/img/about-banner-icon4.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3>24/7</h3>
+                                        <p>Support</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- Get Started In start -->
+    <section class="get-started-section about-us">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="section-header">
+                            <h2 class="title">Our mission</h2>
+                            <p>Our products must be superior to meet our user’s high expectations. It’s our mission to provide maximum value to anyone who transacts with Tranferto. Building excellent customer service into our core product lines and above all remember that we exist because of our customers.</p>
+                            <a href="register-2.html" class="cmn-btn">Get your free account</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="img-area">
+                            <img src="assets/img/rectangle-globe.png" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get Started In end -->
+
+    <!-- Our Mission In start -->
+    <section class="our-mission">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7 d-flex align-items-center">
+                        <div class="section-header">
+                            <h2 class="title">Our vision is</h2>
+                            <p>We will foster a culture that is free from any kind of discrimination, promoting ethical values, recruiting a talented workforce, and staying at the forefront of the industry.All this will help us innovate products that leapfrog into the future and above all, be fair to all.</p>
+                            <a href="register-2.html" class="cmn-btn">Join Tranferto</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-area">
+                            <img src="assets/img/our-vision-img.png" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Mission In end -->
+
+    <!-- Call Action In start -->
+    <section class="call-action-inner about-us">
+        <div class="overlay pt-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 d-flex justify-content-center">
+                        <div class="section-header text-center">
+                            <h2>Our Values</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bottom-area">
+                            <div class="row cus-mar justify-content-center">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-item text-center">
+                                        <div class="icon">
+                                            <img src="assets/img/our-values-icon-1.png" alt="icon">
+                                        </div>
+                                        <h6>100% Execution</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-item text-center">
+                                        <div class="icon">
+                                            <img src="assets/img/our-values-icon-2.png" alt="icon">
+                                        </div>
+                                        <h6>Team work</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-item text-center">
+                                        <div class="icon">
+                                            <img src="assets/img/our-values-icon-3.png" alt="icon">
+                                        </div>
+                                        <h6>Growth</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-item text-center">
+                                        <div class="icon">
+                                            <img src="assets/img/our-values-icon-4.png" alt="icon">
+                                        </div>
+                                        <h6>Transparency</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call Action In end -->
+
+    <!-- Team Member In start -->
+    <section class="team-member">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 d-flex justify-content-center">
+                        <div class="section-header text-center">
+                            <h2 class="title">Meet the amazing team</h2>
+                            <p>We are a team of entrepreneurs, payment specialists and blockchain enthusiasts.
+                                Dedicated to simplifying global payments for your business</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cus-mar">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-item">
+                            <img style="height:400px;" src="https://i.pinimg.com/736x/f8/34/36/f834361d46e9e60cc0484d83fc8ab644.jpg" alt="icon">
+
+                            <div class="text-area">
+                                <h6>Mark Price</h6>
+                                <span class="smr">Chief Financial Officer & Treasurer      </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-item">
+                            <img src="https://i.pinimg.com/736x/81/ac/9e/81ac9ef6456e8eccbf651fc368e83e4a.jpg" alt="icon">
+                            <div class="text-area">
+                                <h6>Abel Rivera</h6>
+                                <span class="smr">Chief Operating Officer      </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-item">
+                            <img src="https://i.pinimg.com/736x/08/6c/75/086c750bbca89ed4561bdad81e39e8c5.jpg" alt="icon" style="height: 50%;">
+                            <div class="text-area">
+                                <h6>Larem Boutenkak</h6>
+                                <span class="smr">Chief Information & Chief Information Security           </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-item">
+                            <img src="https://i.pinimg.com/736x/ec/24/36/ec24362e8bd0d7afd4e8992c2b9dd8d9.jpg" alt="icon">
+                            <div class="text-area">
+                                <h6>Erika Silva</h6>
+                                <span class="smr">Chief Policy Officer
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Member In end -->
+
+    <!-- Careers In start -->
+  
+    <!-- Careers In end -->
+
+    <!-- Awards In start -->
+   
+    <!-- Awards In end -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-section">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row wrapper">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-area">
+                            <h5>COMPANY</h5>
+                            <ul class="items">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="our-team.html">Management Team </a></li>
+                                
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-area">
+                            <h5>Support</h5>
+                            <ul class="items">
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="login-2.html">Your account</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="single-area">
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-area">
+                            <h5>Subscribe to our news</h5>
+                            <p>Get the latest happenings and tips from Tranferto</p>
+                            <form action="#">
+                                <div class="subscribe d-flex">
+                                    <input type="email" placeholder="Your Email Address">
+                                    <button><img src="assets/img/send.png" alt="icon"></button>
+                                </div>
+                            </form>
+                            <div class="social">
+                                <ul class="d-flex">
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="main-content">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-6 col-md-8 cus-order d-flex justify-content-md-start justify-content-center">
+                            <div class="left-area">
+                            
+                            </div>
+                        </div>
+                        
+                                
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer Area End -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/proper-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/plugin/slick.js"></script>
+    <script src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugin/apexcharts.min.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="crypto-ticker.js" defer></script>
+</body>
+
+</html>

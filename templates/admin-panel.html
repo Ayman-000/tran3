@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Tranferto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 100;
+            padding: 20px 0;
+            box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+            background-color: #fff;
+            width: 220px; /* Adjusted sidebar width */
+        }
+        .sidebar-sticky {
+            position: relative;
+            top: 0;
+            height: calc(100vh - 40px);
+            padding-top: .5rem;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .logo-container {
+            text-align: center;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .logo-container img {
+            max-width: 120px;
+        }
+        .sidebar .nav-link {
+            font-weight: 500;
+            color: #333;
+            padding: 10px 15px;
+            margin: 5px 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar .nav-link i {
+            margin-right: 10px;
+            width: 20px; /* Ensure icons align */
+            text-align: center;
+        }
+        .sidebar .nav-link.active,
+        .sidebar .nav-link:hover {
+            color: #fff;
+            background-color: #4743c9; /* Primary color */
+        }
+        .main-content {
+            margin-left: 220px; /* Match sidebar width */
+            padding: 20px;
+        }
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e3e6f0;
+            margin-bottom: 30px;
+        }
+        .stats-cards-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .stats-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+        }
+        .stats-card h5 {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        .stats-card h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+        .dashboard-table {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .dashboard-table h4 {
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #495057;
+        }
+        .flash-messages {
+            margin-bottom: 20px;
+        }
+        .alert-success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .alert-error {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+        .password-modal .modal-dialog {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 d-md-block sidebar">
+                <div class="logo-container">
+                    <h3 style="color: #333; font-weight: bold;">TRANFERTO ADMIN</h3>
+                </div>
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ url_for('admin_panel') }}">
+                                <i class="fas fa-tachometer-alt"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('admin_change_password_page') }}">
+                                <i class="fas fa-key"></i> Change Password
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('admin_create_transaction') }}">
+                                <i class="fas fa-plus-circle"></i> Create Transaction
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('admin_logs') }}">
+                                <i class="fas fa-clipboard-list"></i> Logs/Visitors
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('admin_logout') }}">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 main-content">
+                <div class="dashboard-header">
+                    <h2>Admin Panel</h2>
+                     <a href="{{ url_for('admin_logout') }}" class="btn btn-outline-secondary btn-sm">Logout</a>
+                </div>
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        <div class="flash-messages">
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }}">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+
+                <!-- Stats Cards -->
+                <div class="stats-cards-container">
+                    <div class="stats-card">
+                        <h5>Total Visitors</h5>
+                        <h2>{{ total_visits }}</h2>
+                    </div>
+                    <div class="stats-card">
+                        <h5>Live Visitors</h5>
+                        <h2 id="liveVisitorCount">{{ live_visitors }}</h2>
+                        <small class="text-success" id="liveVisitorStatus">
+                            <i class="fas fa-circle"></i> Tracking Active
+                        </small>
+                    </div>
+                    <div class="stats-card">
+                        <h5>Banned Bots</h5>
+                        <h2>{{ banned_bots }}</h2>
+                    </div>
+                </div>
+
+                <!-- Live Visitors Table with Real-time Updates -->
+                <div class="dashboard-table mb-4">
+                    <h4>
+                        <i class="fas fa-globe"></i> Live Visitors 
+                        <small class="text-muted">(Real-time)</small>
+                    </h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Country</th>
+                                    <th>IP Address</th>
+                                    <th>Page</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="liveVisitorsTable">
+                                {% for visitor in recent_visitors %}
+                                <tr id="visitor-{{ visitor.ip_address|replace('.', '-') }}">
+                                    <td class="visitor-time">{{ visitor.timestamp.split('T')[1].split('.')[0] }}</td>
+                                    <td>
+                                        {% if visitor.country_code != 'Unknown' and visitor.country_code != 'XX' %}
+                                            <img src="https://flagcdn.com/24x18/{{ visitor.country_code.lower() }}.png" 
+                                                 alt="{{ visitor.country_code }}"
+                                                 style="margin-right: 5px; vertical-align: middle; border: 1px solid #ddd; border-radius: 2px;"> 
+                                            {{ visitor.country_code }}
+                                        {% else %}
+                                            <span class="text-muted">Unknown</span>
+                                        {% endif %}
+                                    </td>
+                                    <td><code>{{ visitor.ip_address }}</code></td>
+                                    <td><small class="text-muted">{{ visitor.page }}</small></td>
+                                    <td>
+                                        {% if visitor.fraud_score|int >= 75 %}
+                                            <span class="badge bg-danger">
+                                                <i class="fas fa-ban"></i> Blocked
+                                            </span>
+                                        {% else %}
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-check"></i> Allowed
+                                            </span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Transactions Table -->
+                <div class="dashboard-table">
+                    <h4>Transactions Overview</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>TX ID</th>
+                                    <th>Transaction Info</th>
+                                    <th>Transaction Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for transaction in transactions|reverse %}
+                                <tr>
+                                    <td>
+                                        <strong>{{ transaction.transaction_id }}</strong><br>
+                                        <small class="text-muted">{{ transaction.tracking_number }}</small>
+                                    </td>
+                                    <td>
+                                        Amount: <strong>{{ transaction.amount }}</strong><br>
+                                        Method: {{ transaction.payment_method }}<br>
+                                        <small>Date: {{ transaction.operation_date }}</small>
+                                    </td>
+                                    <td>
+                                        {% if transaction.status == 'Completed' %}
+                                            <span class="badge bg-success"><i class="fas fa-check-circle"></i> {{ transaction.status }}</span>
+                                        {% elif transaction.status == 'Declined' %}
+                                            <span class="badge bg-danger"><i class="fas fa-times-circle"></i> {{ transaction.status }}</span>
+                                        {% elif transaction.status == 'Waiting for Receiver Confirmation' %}
+                                             <span class="badge bg-warning text-dark"><i class="fas fa-hourglass-half"></i> Waiting</span>
+                                        {% else %}
+                                            <span class="badge bg-secondary"><i class="fas fa-spinner"></i> {{ transaction.status }}</span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% else %}
+                                <tr>
+                                    <td colspan="3" class="text-center">No transactions found.</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">IP Protection Stats</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div>
+                                        <h6 class="mb-0">Suspicious IPs Blocked</h6>
+                                        <h2 class="text-danger">{{ banned_bots }}</h2>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Live Visitors</h6>
+                                        <h2 class="text-success">{{ live_visitors }}</h2>
+                                    </div>
+                                </div>
+                                <a href="{{ url_for('antibot_stats') }}" class="btn btn-info btn-block">
+                                    <i class="fas fa-shield-alt"></i> View Detailed IP Stats
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">Recent IP Activity</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                                    <table class="table table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>IP Address</th>
+                                                <th>Country</th>
+                                                <th>Risk Score</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for visitor in recent_visitors %}
+                                            <tr>
+                                                <td>{{ visitor.ip_address }}</td>
+                                                <td>
+                                                    {% if visitor.country_code != 'Unknown' %}
+                                                        <img src="https://flagcdn.com/16x12/{{ visitor.country_code.lower() }}.png" 
+                                                             alt="{{ visitor.country_code }}"
+                                                             class="me-1"> 
+                                                    {% endif %}
+                                                    {{ visitor.country_code }}
+                                                </td>
+                                                <td>
+                                                    {% if visitor.fraud_score|int >= 75 %}
+                                                        <span class="badge bg-danger">{{ visitor.fraud_score }}</span>
+                                                    {% elif visitor.fraud_score|int >= 50 %}
+                                                        <span class="badge bg-warning">{{ visitor.fraud_score }}</span>
+                                                    {% else %}
+                                                        <span class="badge bg-success">{{ visitor.fraud_score }}</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td>
+                                                    {% if visitor.fraud_score|int >= 75 %}
+                                                        <span class="badge bg-danger">Blocked</span>
+                                                    {% else %}
+                                                        <span class="badge bg-success">Allowed</span>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Admin Actions</h5>
+                    <div class="btn-group-vertical w-100">
+                        <a href="{{ url_for('admin_create_transaction') }}" class="btn btn-primary mb-2">
+                            <i class="fas fa-plus-circle"></i> Create New Transaction
+                        </a>
+                        <a href="{{ url_for('antibot_stats') }}" class="btn btn-info mb-2">
+                            <i class="fas fa-shield-alt"></i> Anti-Bot Statistics
+                        </a>
+                        <a href="{{ url_for('admin_change_password_page') }}" class="btn btn-warning mb-2">
+                            <i class="fas fa-key"></i> Change Password
+                        </a>
+                        <a href="{{ url_for('admin_logout') }}" class="btn btn-danger">
+                            <i class="fas fa-sign-out-alt"></i> Logout
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Connect to WebSocket
+            var socket = io();
+            var visitorTimeout = {};
+
+            // Handle connection status
+            socket.on('connect', function() {
+                console.log('Connected to server');
+                document.getElementById('liveVisitorStatus').classList.remove('text-danger');
+                document.getElementById('liveVisitorStatus').classList.add('text-success');
+            });
+
+            socket.on('disconnect', function() {
+                document.getElementById('liveVisitorStatus').classList.remove('text-success');
+                document.getElementById('liveVisitorStatus').classList.add('text-danger');
+                document.getElementById('liveVisitorStatus').innerHTML = '<i class="fas fa-circle"></i> Connection Lost';
+            });
+
+            // Handle visitor updates
+            socket.on('visitor_update', function(data) {
+                // Update visitor count
+                document.getElementById('liveVisitorCount').textContent = data.live_visitors;
+                
+                // Clear existing timeout for this visitor
+                if (visitorTimeout[data.visitor.ip_address]) {
+                    clearTimeout(visitorTimeout[data.visitor.ip_address]);
+                }
+
+                // Set new timeout
+                visitorTimeout[data.visitor.ip_address] = setTimeout(function() {
+                    removeVisitor(data.visitor.ip_address);
+                }, 300000); // 5 minutes
+
+                // Update or add visitor to table
+                updateVisitorTable(data.visitor);
+            });
+
+            socket.on('visitor_left', function(data) {
+                removeVisitor(data.ip_address);
+            });
+
+            function removeVisitor(ip) {
+                const visitorRow = document.getElementById(`visitor-${ip.replace(/\./g, '-')}`);
+                if (visitorRow) {
+                    visitorRow.remove();
+                    
+                    // Update count
+                    const currentCount = parseInt(document.getElementById('liveVisitorCount').textContent);
+                    document.getElementById('liveVisitorCount').textContent = Math.max(0, currentCount - 1);
+                }
+                delete visitorTimeout[ip];
+            }
+
+            function updateVisitorTable(visitor) {
+                const tableBody = document.getElementById('liveVisitorsTable');
+                const visitorId = `visitor-${visitor.ip_address.replace(/\./g, '-')}`;
+                let row = document.getElementById(visitorId);
+                
+                const timestamp = new Date(visitor.timestamp).toTimeString().split(' ')[0];
+                const rowHtml = `
+                    <td class="visitor-time">${timestamp}</td>
+                    <td>
+                        ${visitor.country_code !== 'Unknown' && visitor.country_code !== 'XX' 
+                            ? `<img src="https://flagcdn.com/24x18/${visitor.country_code.toLowerCase()}.png" 
+                                 alt="${visitor.country_code}"
+                                 style="margin-right: 5px; vertical-align: middle; border: 1px solid #ddd; border-radius: 2px;"> 
+                               ${visitor.country_code}`
+                            : '<span class="text-muted">Unknown</span>'}
+                    </td>
+                    <td><code>${visitor.ip_address}</code></td>
+                    <td><small class="text-muted">${visitor.page}</small></td>
+                    <td>
+                        ${parseInt(visitor.fraud_score) >= 75 
+                            ? '<span class="badge bg-danger"><i class="fas fa-ban"></i> Blocked</span>'
+                            : '<span class="badge bg-success"><i class="fas fa-check"></i> Allowed</span>'}
+                    </td>
+                `;
+
+                if (row) {
+                    row.innerHTML = rowHtml;
+                } else {
+                    row = document.createElement('tr');
+                    row.id = visitorId;
+                    row.innerHTML = rowHtml;
+                    tableBody.insertBefore(row, tableBody.firstChild);
+                }
+            }
+        });
+    </script>
+</body>
+</html> 
