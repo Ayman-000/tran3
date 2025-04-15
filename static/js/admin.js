@@ -1,5 +1,12 @@
-// Initialize Socket.IO connection
-const socket = io();
+// Initialize Socket.IO connection with proper configuration
+const socket = io({
+    transports: ['websocket'],
+    pingTimeout: 60000,
+    pingInterval: 25000,
+    reconnection: true,
+    reconnectionAttempts: 5,
+    reconnectionDelay: 1000
+});
 
 // Store active visitors
 const activeVisitors = new Map();

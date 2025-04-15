@@ -25,10 +25,63 @@ app.secret_key = os.environ.get('SECRET_KEY', 'your-secret-key-here')
 app.config['UPLOAD_FOLDER'] = os.path.join('static', 'uploads', 'receipt_images')
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif'}
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-socketio = SocketIO(app, cors_allowed_origins="*")
 
-# Initialize anti-bot protection
+# Initialize anti-bot protection with development mode
 antibot = AntiBotMiddleware(app)
+
+# Configure anti-bot settings
+antibot.strict_mode = False  # Disable strict mode
+antibot.rate_limit = 1000  # Increase rate limit significantly for development
+antibot.block_duration = 60  # Reduce block duration to 1 minute
+antibot.whitelist_paths = [
+    # Static files and assets
+    '/static/*',
+    '/assets/*',
+    '/favicon.ico',
+    
+    # WebSocket endpoints
+    '/socket.io/*',
+    
+    # Main pages
+    '/',
+    '/about-us',
+    '/our-team',
+    '/contact',
+    '/login',
+    '/register',
+    '/registered',
+    '/privacy-policy',
+    '/terms-conditions',
+    
+    # Admin routes
+    '/admin',
+    '/admin/login',
+    '/admin/panel',
+    '/admin/logs',
+    '/admin/change-password-page',
+    '/admin/change-password',
+    '/admin/generate-tracking',
+    '/admin/create-transaction',
+    '/admin/antibot-stats',
+    
+    # Transaction routes
+    '/track',
+    '/receipt/*',
+    '/accept-transaction/*',
+    '/decline-transaction/*',
+    
+    # API and utility routes
+    '/crypto-ticker.js',
+    '/*.png'  # For serving PNG images
+]
+antibot.debug = True  # Enable debug mode
+
+# Initialize SocketIO after anti-bot configuration
+socketio = SocketIO(app, 
+                   cors_allowed_origins="*",
+                   async_mode='threading',  # Using threading mode for better compatibility
+                   ping_timeout=60,
+                   ping_interval=25)
 
 # Protected routes that need additional bot protection
 PROTECTED_ROUTES = [
@@ -41,9 +94,60 @@ PROTECTED_ROUTES = [
 ]
 
 # Add bot protection to specific routes
+# Decorator logic remains the same, using the configured 'antibot' instance
 def protect_route_from_bots(route_func):
-    from antibotspy.flask_antibot import protect_from_bots
-    return protect_from_bots(route_func)
+    @wraps(route_func)
+    def wrapper(*args, **kwargs):
+        # Get the IP address from the request
+        ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+        if ip:
+            ip = ip.split(',')[0].strip()
+        else:
+            ip = request.remote_addr
+            
+        # Check IP quality score first
+        try:
+            ipqs_api_key = os.environ.get('IPQS_API_KEY')
+            if ipqs_api_key:
+                url = f"https://www.ipqualityscore.com/api/json/ip/{ipqs_api_key}/{ip}?strictness=0" # Reduced strictness
+                headers = {
+                    'Accept': 'application/json',
+                    'User-Agent': 'Tranferto/1.0'
+                }
+                
+                response = requests.get(url, headers=headers, timeout=5)
+                if response.status_code == 200:
+                    data = response.json()
+                    if data.get('success', False):
+                        fraud_score = data.get('fraud_score', 0)
+                        # If fraud score is low, allow the request directly
+                        if fraud_score < 85: # Increased threshold
+                            return route_func(*args, **kwargs)
+                # If API call fails or returns non-200, log it but don't block yet
+                elif response.status_code != 200:
+                     app.logger.warning(f"IPQS API returned status {response.status_code} for IP {ip}")
+
+            else:
+                 app.logger.warning("IPQS_API_KEY not set. Skipping IP quality check.")
+                 # If no API key, we can't check score, proceed to antibot middleware protection
+                 pass
+
+        except requests.exceptions.RequestException as e:
+            app.logger.error(f"IP quality check request failed for IP {ip}: {str(e)}")
+            # If the check *itself* fails (e.g., timeout, connection error), allow the request
+            # This prevents blocking users due to external API issues.
+            return route_func(*args, **kwargs)
+        except Exception as e:
+            # Catch other potential errors during the check
+            app.logger.error(f"Unexpected error during IP quality check for IP {ip}: {str(e)}")
+            # Allow request on unexpected errors as well
+            return route_func(*args, **kwargs)
+            
+        # If IPQS check didn't explicitly allow (high fraud score or no API key),
+        # fall back to the AntiBotMiddleware's protection mechanisms (rate limiting etc.)
+        # The middleware itself will decide whether to block based on its rules.
+        return antibot.protect(route_func)(*args, **kwargs)
+    return wrapper
 
 # Admin credentials
 ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', 'admin123')
@@ -378,6 +482,7 @@ def serve_assets(filename):
     return send_from_directory('static/assets', filename)
 
 # Main routes
+@protect_route_from_bots
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -449,17 +554,27 @@ def index_html():
 
 # Admin routes
 @app.route('/admin/login', methods=['GET', 'POST'])
-@protect_route_from_bots
 def admin_login():
-    if request.method == 'POST':
-        password = request.form.get('password')
-        if check_password_hash(ADMIN_PASSWORD_HASH, password):
-            session['admin_logged_in'] = True
-            flash('Successfully logged in!', 'success')
-            return redirect(url_for('admin_dashboard'))
-        else:
-            flash('Invalid password. Please try again.', 'error')
-    return render_template('admin-login.html')
+    try:
+        if request.method == 'POST':
+            password = request.form.get('password')
+            if not password:
+                flash('Please enter a password', 'error')
+                return render_template('admin-login.html')
+                
+            if check_password_hash(ADMIN_PASSWORD_HASH, password):
+                session['admin_logged_in'] = True
+                flash('Successfully logged in!', 'success')
+                return redirect(url_for('admin_dashboard'))
+            else:
+                flash('Invalid password. Please try again.', 'error')
+                return render_template('admin-login.html')
+                
+        return render_template('admin-login.html')
+    except Exception as e:
+        app.logger.error(f"Error in admin login: {str(e)}")
+        flash('An error occurred. Please try again.', 'error')
+        return render_template('admin-login.html')
 
 @app.route('/admin/logout')
 def admin_logout():
@@ -469,43 +584,49 @@ def admin_logout():
 
 @app.route('/admin/panel')
 @login_required
-@protect_route_from_bots
 def admin_panel():
-    # Clean up old visitors before displaying
-    cleanup_visitors()
-    
-    # Calculate stats
-    live_visitors = len(active_visitors)
-    banned_bots = sum(1 for v in active_visitors.values() if int(v.get('fraud_score', 0)) >= 75)
-    
-    total_visits = 0
     try:
-        with open(VISITS_TXT, 'r') as f:
-            total_visits = int(f.read().strip())
+        # Clean up old visitors before displaying
+        cleanup_visitors()
+        
+        # Calculate stats
+        live_visitors = len(active_visitors)
+        banned_bots = sum(1 for v in active_visitors.values() if int(v.get('fraud_score', 0)) >= 75)
+        
+        total_visits = 0
+        try:
+            with open(VISITS_TXT, 'r') as f:
+                total_visits = int(f.read().strip())
+        except Exception as e:
+            app.logger.error(f"Error reading total visits: {str(e)}")
+            flash(f'Error reading total visits file: {e}', 'error')
+        
+        # Get transactions
+        transactions = []
+        try:
+            with open(TRANSACTIONS_CSV, 'r', newline='') as f:
+                reader = csv.DictReader(f)
+                transactions = list(reader)
+                for transaction in transactions:
+                    for key in transaction:
+                        if transaction[key] is None or transaction[key] == '':
+                            transaction[key] = 'N/A'
+                    if 'status' not in transaction or not transaction['status']:
+                        transaction['status'] = 'Processing'
+        except Exception as e:
+            app.logger.error(f"Error reading transactions: {str(e)}")
+            flash(f'Error reading transactions file: {e}', 'error')
+        
+        return render_template('admin-panel.html',
+                             total_visits=total_visits,
+                             live_visitors=live_visitors,
+                             banned_bots=banned_bots,
+                             transactions=transactions,
+                             recent_visitors=list(active_visitors.values()))
     except Exception as e:
-        flash(f'Error reading total visits file: {e}', 'error')
-    
-    # Get transactions
-    transactions = []
-    try:
-        with open(TRANSACTIONS_CSV, 'r', newline='') as f:
-            reader = csv.DictReader(f)
-            transactions = list(reader)
-            for transaction in transactions:
-                for key in transaction:
-                    if transaction[key] is None or transaction[key] == '':
-                        transaction[key] = 'N/A'
-                if 'status' not in transaction or not transaction['status']:
-                    transaction['status'] = 'Processing'
-    except Exception as e:
-        flash(f'Error reading transactions file: {e}', 'error')
-    
-    return render_template('admin-panel.html',
-                         total_visits=total_visits,
-                         live_visitors=live_visitors,
-                         banned_bots=banned_bots,
-                         transactions=transactions,
-                         recent_visitors=list(active_visitors.values()))
+        app.logger.error(f"Error in admin panel: {str(e)}")
+        flash('An error occurred while loading the admin panel.', 'error')
+        return redirect(url_for('admin_login'))
 
 @app.route('/admin/logs')
 @login_required
@@ -538,10 +659,9 @@ def generate_tracking():
 
 @app.route('/admin/create-transaction', methods=['GET', 'POST'])
 @login_required
-@protect_route_from_bots
 def admin_create_transaction():
-    if request.method == 'POST':
-        try:
+    try:
+        if request.method == 'POST':
             data = request.form
             profile_pic_filename = None
 
@@ -605,48 +725,44 @@ def admin_create_transaction():
 
             flash(f'Transaction created successfully! ID: {transaction_id}', 'success')
             return redirect(url_for('admin_panel'))
-        except Exception as e:
-            flash(f'Error creating transaction: {str(e)}', 'error')
-            app.logger.error(f"Error creating transaction: {e}", exc_info=True)
-            return redirect(url_for('admin_create_transaction'))
-
-    return render_template('admin-create-transaction.html')
+        else:
+            # GET request - show the form
+            return render_template('admin-create-transaction.html')
+            
+    except Exception as e:
+        app.logger.error(f"Error in create transaction: {str(e)}")
+        flash(f'Error creating transaction: {str(e)}', 'error')
+        return redirect(url_for('admin_create_transaction'))
 
 @app.route('/track', methods=['POST'])
-@protect_route_from_bots
 def track_transfer():
-    # Changed from tracking_code to transaction_id
-    transaction_code = request.form.get('transaction_code') 
-
-    # Validate transaction code format (8 chars, mix of digits/letters)
-    if not transaction_code or len(transaction_code) != 8 or not any(c.isalpha() for c in transaction_code) or not any(c.isdigit() for c in transaction_code):
-        flash('Invalid transaction code format. Please enter the 8-character code.', 'error')
-        return redirect(url_for('index'))
-
     try:
+        transaction_code = request.form.get('transaction_code')
+        
+        # Validate transaction code format
+        if not transaction_code or len(transaction_code) != 8:
+            flash('Invalid transaction code format. Please enter an 8-character code.', 'error')
+            return redirect(url_for('index'))
+            
         # Read transactions from CSV
         transaction = None
         if os.path.exists(TRANSACTIONS_CSV):
             with open(TRANSACTIONS_CSV, 'r', newline='') as f:
-                # Use DictReader with the correct fieldnames
-                reader = csv.DictReader(f, fieldnames=TRANSACTION_FIELDNAMES) 
-                next(reader) # Skip header row explicitly if DictReader doesn't handle it automatically
+                reader = csv.DictReader(f)
                 for row in reader:
-                    # Search by the new transaction_id
-                    if row['transaction_id'] == transaction_code: 
+                    if row.get('transaction_id') == transaction_code:
                         transaction = row
                         break
         
         if not transaction:
             flash('No transaction found with this code. Please check and try again.', 'error')
             return redirect(url_for('index'))
-
-        # Redirect to the new receipt page using transaction_id
+            
         return redirect(url_for('receipt', transaction_id=transaction_code))
         
     except Exception as e:
-        flash(f'Error tracking transfer: {str(e)}', 'error')
-        app.logger.error(f"Error tracking transfer: {e}", exc_info=True)
+        app.logger.error(f"Error tracking transfer: {str(e)}")
+        flash('An error occurred while processing your request. Please try again.', 'error')
         return redirect(url_for('index'))
 
 @app.route('/accept-transaction/<transaction_id>', methods=['POST'])

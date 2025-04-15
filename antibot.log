@@ -1941,3 +1941,1402 @@
 2025-04-14 19:54:49,597 - INFO - 127.0.0.1 - - [14/Apr/2025 19:54:49] "POST /socket.io/?EIO=4&transport=polling&t=POrftNu&sid=Xvydd0WWZXzBzzs1AAAG HTTP/1.1" 200 -
 2025-04-14 19:54:49,658 - INFO - 127.0.0.1 - - [14/Apr/2025 19:54:49] "GET /socket.io/?EIO=4&transport=polling&t=POrftNv&sid=Xvydd0WWZXzBzzs1AAAG HTTP/1.1" 200 -
 2025-04-14 19:54:49,669 - INFO - 127.0.0.1 - - [14/Apr/2025 19:54:49] "GET /socket.io/?EIO=4&transport=polling&t=POrftT0&sid=Xvydd0WWZXzBzzs1AAAG HTTP/1.1" 200 -
+2025-04-15 12:51:10,061 - INFO - BotDetector initialized
+2025-04-15 12:52:29,078 - INFO - BotDetector initialized
+2025-04-15 12:52:29,893 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 12:52:29,893 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 12:52:29,893 - INFO -  * Restarting with stat
+2025-04-15 12:52:30,393 - INFO - BotDetector initialized
+2025-04-15 12:52:30,946 - WARNING -  * Debugger is active!
+2025-04-15 12:52:30,950 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 12:52:35,796 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:36,564 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:36,565 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:36,663 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "GET / HTTP/1.1" 200 -
+2025-04-15 12:52:36,846 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,849 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,852 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,856 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,859 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,866 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,903 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,934 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,959 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,964 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,988 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,992 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:36,998 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:36] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,003 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,090 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,096 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,098 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,117 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,120 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,122 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,124 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,174 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,177 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,182 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,184 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,185 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,188 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,194 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,195 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,195 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,196 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,246 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,249 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,257 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,285 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,287 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,358 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,423 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,425 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,429 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,436 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,437 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,444 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,471 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,471 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,497 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,508 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,515 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,548 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,549 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,551 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,557 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,558 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,558 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,561 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,566 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,628 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,628 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,634 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,639 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,640 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,673 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,674 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,675 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,677 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,685 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,702 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,770 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,770 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,773 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,780 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,780 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,781 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,785 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,833 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,840 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:37,891 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:37] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:38,718 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:38] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 12:52:38,835 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:38] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,083 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:41,738 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:41,738 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:41,779 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "GET /about-us HTTP/1.1" 200 -
+2025-04-15 12:52:41,804 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,805 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,811 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,813 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,815 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,816 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,822 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,822 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,828 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,829 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,831 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,835 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,845 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/about-us-banner.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,846 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,846 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,857 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,861 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,865 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,874 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/right-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,874 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,885 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/inner-page-banner.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,891 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,898 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,898 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,900 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/index3-overlay.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,905 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,908 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,919 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:41,920 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:41] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:43,337 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:43,985 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:43,985 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:44,269 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "GET /our-team HTTP/1.1" 200 -
+2025-04-15 12:52:44,297 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,299 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,304 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,306 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,310 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,312 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,313 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,318 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,320 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,324 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,325 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,332 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,335 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:44,335 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,347 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,356 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,357 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,358 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,359 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/img/inner-page-banner.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,373 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/img/index3-overlay.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,373 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/img/right-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,386 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,389 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,390 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,393 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,405 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,405 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,405 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:44,408 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:44] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:45,007 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:45,007 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:45,017 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:45] "[36mGET /assets/img/about-us-banner.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:47,713 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:48,373 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:48,373 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:48,382 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:48] "[32mGET /register-2.html HTTP/1.1[0m" 302 -
+2025-04-15 12:52:48,387 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:49,083 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:49,083 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:49,126 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:49] "GET /register HTTP/1.1" 200 -
+2025-04-15 12:52:49,152 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:49,155 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:49,158 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:49,158 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:49,158 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:49,162 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:50,156 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:50,156 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:50,161 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:50,161 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:50,169 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:50] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:50,170 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:50] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:50,174 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:50,174 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:50,187 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:50,187 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:50,188 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:50,188 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:50,199 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:50] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:50,199 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:50] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:50,203 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:50,204 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:50,208 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:50,208 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:50,218 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:50] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:50,228 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:50,228 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:50,238 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:50] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:50,294 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:50,379 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:51,158 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:51,159 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:51,189 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:51,189 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:51,190 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:51] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:51,221 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:51,221 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:51,223 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:51] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:51,227 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:51,227 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:51,239 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:51,239 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:51,252 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:51] "[36mGET /assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:51,253 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:51] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:51,254 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:51] "[36mGET /assets/img/left-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:51,262 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:51,263 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:51,307 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:51,308 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:51,335 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:51,345 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:51] "[36mGET /assets/img/logo.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:51,350 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:51,366 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:51,369 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:52,254 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:52,254 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:52,288 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:52] "GET /assets/img/feature-list-icon-2.png HTTP/1.1" 200 -
+2025-04-15 12:52:52,299 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:52,323 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:52,324 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:52,378 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:52,378 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:52,396 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:52,398 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:52,398 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:52,398 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:52,600 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:52] "[36mGET /assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:52,603 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:52] "GET /assets/img/feature-list-icon-1.png HTTP/1.1" 200 -
+2025-04-15 12:52:52,603 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:52] "GET /assets/img/feature-list-icon-3.png HTTP/1.1" 200 -
+2025-04-15 12:52:52,606 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:52] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:52:52,606 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:52,612 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:52,746 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:53,093 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:53,093 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:53,104 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:53] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 12:52:53,348 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:53,414 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:53,415 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:53,425 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:53,425 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:53,441 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:53] "[36mGET /assets/img/show-hide.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:53,443 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:53,444 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:53,447 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:53,450 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:53] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:53,454 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:53,457 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:53] "[36mGET /assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:53,466 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:53,521 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:53,521 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:53,532 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:53] "[36mGET /assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:53,591 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:54,273 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:54,274 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:54,283 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:54] "[36mGET /assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:54,346 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:54,346 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:54,358 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:54] "[36mGET /assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:54,359 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:54,359 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:54,371 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:54,371 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:54,371 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:54] "[36mGET /assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:54,381 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:54] "[36mGET /assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:54,383 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:54,386 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:54,417 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:54,448 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:54,448 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:54,458 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:54] "[36mGET /assets/js/plugin/jquery.countdown.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:55,211 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:55,212 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:55,228 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:55,228 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:55,228 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:55,229 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:55,239 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:55] "[36mGET /assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:55,245 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:55] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:55,246 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:55] "[36mGET /assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:58,315 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:58,933 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:58,933 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:58,941 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:58] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-04-15 12:52:58,946 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:52:59,575 - INFO - IPQS API Response Status: 200
+2025-04-15 12:52:59,576 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:52:59,590 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "GET / HTTP/1.1" 200 -
+2025-04-15 12:52:59,619 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,620 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,622 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,626 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,631 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,632 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,635 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,636 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,636 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,639 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,646 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,646 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,652 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,653 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,657 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,659 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,661 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,662 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,666 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,670 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,680 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,682 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,685 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,689 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,699 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,700 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,702 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,702 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,716 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,717 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,723 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,733 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,741 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,748 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,749 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,753 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,754 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,756 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,763 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,763 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,763 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,768 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,771 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,772 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,775 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,780 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,782 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,783 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,786 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,789 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,791 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,795 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,800 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,803 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,811 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,811 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,814 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,815 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,815 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,827 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,831 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,833 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,835 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,839 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,839 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,841 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,842 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,852 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,852 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,854 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,858 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,859 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,865 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,868 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,869 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,870 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,872 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:52:59,902 - INFO - 127.0.0.1 - - [15/Apr/2025 12:52:59] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 12:53:02,385 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:03,037 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:03,037 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:03,053 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:03] "GET /login HTTP/1.1" 200 -
+2025-04-15 12:53:03,126 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:03,126 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:03,127 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:03,135 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:03,137 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:03,137 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:04,100 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:04,101 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:04,133 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:04,133 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:04,135 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,144 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:04,152 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:04,152 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:04,169 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:04,169 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:04,171 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,173 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,187 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:04,190 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:04,192 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:04,195 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:04,240 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,241 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,245 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:04,246 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:04,257 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,260 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "GET /static/assets/img/left-icon.png HTTP/1.1" 200 -
+2025-04-15 12:53:04,268 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,273 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,278 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "GET /static/assets/img/show-hide.png HTTP/1.1" 200 -
+2025-04-15 12:53:04,279 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,285 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "GET /static/assets/img/login-bg-2.png HTTP/1.1" 200 -
+2025-04-15 12:53:04,286 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,287 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,294 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,296 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,298 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,301 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,303 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "GET /static/assets/js/plugin/jquery.countdown.js HTTP/1.1" 200 -
+2025-04-15 12:53:04,304 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,313 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:04,313 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:04] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:05,025 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:05,026 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:05,026 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:05,027 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:05,045 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:05] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:05,045 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:05] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:05,074 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:05,075 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:05,086 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:05] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:05,099 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:05,103 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:05,103 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:05,893 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:05,893 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:05,905 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:05] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 12:53:05,912 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:05,912 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:05,925 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:05] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:53:05,954 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:05,954 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:05,965 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:05] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:07,527 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:08,132 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:08,132 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:08,158 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "GET / HTTP/1.1" 200 -
+2025-04-15 12:53:08,187 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,189 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,195 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,196 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,200 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,203 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,206 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,208 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,211 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,212 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,214 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,220 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,221 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,227 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,229 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,230 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,236 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,239 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,241 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,244 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,245 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,251 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,253 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,257 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,267 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,273 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,274 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,285 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,289 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,292 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,301 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,306 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,307 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,308 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,321 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,323 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,326 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,327 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,337 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,338 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,339 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,347 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,349 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,350 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,353 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,355 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,356 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,364 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,366 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,366 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,371 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,373 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,374 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,380 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,382 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,384 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,386 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,391 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,392 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,398 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,401 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,402 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,406 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,406 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,411 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,415 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,417 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,421 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,423 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,424 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,433 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,433 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,436 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,436 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,440 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,448 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:08,448 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:08] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:13,988 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:53:14,623 - INFO - IPQS API Response Status: 200
+2025-04-15 12:53:14,623 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:53:15,385 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:15] "[35m[1mPOST /track HTTP/1.1[0m" 500 -
+2025-04-15 12:53:15,483 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:15] "GET /track?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 12:53:15,553 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:15] "GET /track?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-15 12:53:15,620 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:15] "GET /track?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-15 12:53:15,628 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:15] "[36mGET /track?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:53:34,589 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:34] "[35m[1mGET /admin/login HTTP/1.1[0m" 500 -
+2025-04-15 12:53:34,610 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:34] "GET /admin/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-15 12:53:34,611 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:34] "GET /admin/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 12:53:34,626 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:34] "GET /admin/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-15 12:53:34,701 - INFO - 127.0.0.1 - - [15/Apr/2025 12:53:34] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:54:09,721 - INFO - 127.0.0.1 - - [15/Apr/2025 12:54:09] "[35m[1mGET /admin/login HTTP/1.1[0m" 500 -
+2025-04-15 12:54:09,738 - INFO - 127.0.0.1 - - [15/Apr/2025 12:54:09] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:54:09,739 - INFO - 127.0.0.1 - - [15/Apr/2025 12:54:09] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 12:54:09,752 - INFO - 127.0.0.1 - - [15/Apr/2025 12:54:09] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:54:09,765 - INFO - 127.0.0.1 - - [15/Apr/2025 12:54:09] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:54:23,472 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 12:54:23,613 - INFO -  * Restarting with stat
+2025-04-15 12:54:24,160 - INFO - BotDetector initialized
+2025-04-15 12:54:24,831 - WARNING -  * Debugger is active!
+2025-04-15 12:54:24,837 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 12:56:03,552 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 12:56:03,605 - INFO -  * Restarting with stat
+2025-04-15 12:56:04,116 - INFO - BotDetector initialized
+2025-04-15 12:56:04,681 - WARNING -  * Debugger is active!
+2025-04-15 12:56:04,685 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 12:56:06,956 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 12:56:07,011 - INFO -  * Restarting with stat
+2025-04-15 12:56:07,523 - INFO - BotDetector initialized
+2025-04-15 12:56:08,087 - WARNING -  * Debugger is active!
+2025-04-15 12:56:08,091 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 12:56:17,395 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 12:56:17,442 - INFO -  * Restarting with stat
+2025-04-15 12:56:17,936 - INFO - BotDetector initialized
+2025-04-15 12:56:18,513 - WARNING -  * Debugger is active!
+2025-04-15 12:56:18,518 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 12:56:22,107 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 12:56:22,157 - INFO -  * Restarting with stat
+2025-04-15 12:56:22,649 - INFO - BotDetector initialized
+2025-04-15 12:56:23,311 - WARNING -  * Debugger is active!
+2025-04-15 12:56:23,315 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 12:57:43,756 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:57:44,635 - INFO - IPQS API Response Status: 200
+2025-04-15 12:57:44,637 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:57:44,676 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "GET / HTTP/1.1" 200 -
+2025-04-15 12:57:44,807 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,814 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,818 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,821 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,824 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,830 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,834 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,838 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,842 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,851 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,852 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,857 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,857 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,870 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,875 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,875 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,883 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,886 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,887 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,891 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,893 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,897 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,905 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,905 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,908 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,914 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,919 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,922 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,929 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,931 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,931 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,937 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,939 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,946 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,947 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,949 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,950 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,954 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,959 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,977 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,983 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,984 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,986 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,991 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,991 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:44,999 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:44] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,000 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,004 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,007 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,007 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,008 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,016 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,018 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,018 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,019 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,024 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,033 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,035 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,040 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,041 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,042 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,055 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,056 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,056 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,067 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,078 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,080 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,083 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,087 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,088 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,091 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,098 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,099 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,102 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,105 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,109 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,114 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,115 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,185 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 12:57:45,218 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:45] "[36mGET /static/assets/img/fav.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:58,122 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:58] "GET /admin/login HTTP/1.1" 200 -
+2025-04-15 12:57:58,139 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:58] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 12:57:58,140 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:58] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 12:57:58,181 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:57:59,258 - INFO - IPQS API Response Status: 200
+2025-04-15 12:57:59,258 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:57:59,362 - INFO - 127.0.0.1 - - [15/Apr/2025 12:57:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-15 12:58:04,910 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:04] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-04-15 12:58:04,914 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:04] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 12:58:05,606 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:05] "[35m[1mGET /admin/panel HTTP/1.1[0m" 500 -
+2025-04-15 12:58:05,625 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:05] "[36mGET /admin/panel?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:58:05,626 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:05] "GET /admin/panel?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 12:58:05,769 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:05] "[36mGET /admin/panel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:58:05,802 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:05] "[36mGET /admin/panel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:58:13,454 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 12:58:14,149 - INFO - IPQS API Response Status: 200
+2025-04-15 12:58:14,149 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 12:58:14,854 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:14] "[35m[1mPOST /track HTTP/1.1[0m" 500 -
+2025-04-15 12:58:14,877 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:14] "[36mGET /track?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 12:58:14,879 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:14] "[36mGET /track?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 12:58:14,885 - INFO - 127.0.0.1 - - [15/Apr/2025 12:58:14] "[36mGET /track?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 12:58:56,393 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 12:58:56,448 - INFO -  * Restarting with stat
+2025-04-15 12:58:56,975 - INFO - BotDetector initialized
+2025-04-15 12:58:57,567 - WARNING -  * Debugger is active!
+2025-04-15 12:58:57,571 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:00:12,862 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 13:00:12,914 - INFO -  * Restarting with stat
+2025-04-15 13:00:13,537 - INFO - BotDetector initialized
+2025-04-15 13:00:14,119 - WARNING -  * Debugger is active!
+2025-04-15 13:00:14,123 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:00:46,656 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:00:47,362 - INFO - IPQS API Response Status: 200
+2025-04-15 13:00:47,362 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:00:47,367 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:47] "[32mPOST /track HTTP/1.1[0m" 302 -
+2025-04-15 13:00:47,372 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:00:48,039 - INFO - IPQS API Response Status: 200
+2025-04-15 13:00:48,039 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:00:48,081 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "GET / HTTP/1.1" 200 -
+2025-04-15 13:00:48,220 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,224 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,230 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,234 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,238 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,246 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,251 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,254 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,258 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,264 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,268 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,279 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,279 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,295 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,313 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,314 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,316 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,330 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,335 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,339 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,341 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,341 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,343 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,351 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,352 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,357 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,364 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,364 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,365 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,371 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,374 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,377 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,382 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,385 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,387 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,389 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,393 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,394 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,399 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,400 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,404 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,408 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,409 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,409 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,417 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,420 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,422 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,423 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,423 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,430 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,436 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,436 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,449 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,449 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,450 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,464 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,466 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,468 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,477 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,482 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,485 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,490 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,491 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,500 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,501 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,506 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,507 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,514 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,520 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,521 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,522 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,525 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,535 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,542 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,544 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,548 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,566 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,566 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:00:48,606 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:48] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 13:00:53,219 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "GET /admin/panel HTTP/1.1" 200 -
+2025-04-15 13:00:53,236 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:00:53,413 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:00:53,428 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:00:53,458 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "GET /socket.io/?EIO=4&transport=polling&t=POvKjhD HTTP/1.1" 200 -
+2025-04-15 13:00:53,468 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "POST /socket.io/?EIO=4&transport=polling&t=POvKjhL&sid=nKbAPdbFNDMP4RF4AAAA HTTP/1.1" 200 -
+2025-04-15 13:00:53,470 - INFO - 127.0.0.1 - - [15/Apr/2025 13:00:53] "GET /socket.io/?EIO=4&transport=polling&t=POvKjhN&sid=nKbAPdbFNDMP4RF4AAAA HTTP/1.1" 200 -
+2025-04-15 13:01:06,876 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "GET /socket.io/?EIO=4&transport=websocket&sid=nKbAPdbFNDMP4RF4AAAA HTTP/1.1" 200 -
+2025-04-15 13:01:06,884 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "GET /admin/panel HTTP/1.1" 200 -
+2025-04-15 13:01:06,903 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:06,905 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:01:06,906 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:06,926 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "GET /socket.io/?EIO=4&transport=polling&t=POvKmzg HTTP/1.1" 200 -
+2025-04-15 13:01:06,940 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "POST /socket.io/?EIO=4&transport=polling&t=POvKmzp&sid=7j2Bku3_IRD6jLyXAAAC HTTP/1.1" 200 -
+2025-04-15 13:01:06,942 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "GET /socket.io/?EIO=4&transport=polling&t=POvKmzr&sid=7j2Bku3_IRD6jLyXAAAC HTTP/1.1" 200 -
+2025-04-15 13:01:06,967 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:06] "GET /socket.io/?EIO=4&transport=polling&t=POvKm-J&sid=7j2Bku3_IRD6jLyXAAAC HTTP/1.1" 200 -
+2025-04-15 13:01:20,932 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:01:21,870 - INFO - IPQS API Response Status: 200
+2025-04-15 13:01:21,870 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:01:21,873 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "GET / HTTP/1.1" 200 -
+2025-04-15 13:01:21,901 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,902 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,913 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,916 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,920 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,925 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,926 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,928 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,934 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,941 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,942 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,949 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,953 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,958 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,960 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,963 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,971 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,973 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,980 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,981 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,981 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,985 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,992 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,994 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:21,997 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:21] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,000 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,003 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,004 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,005 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,007 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,015 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,016 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,018 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,022 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,024 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,025 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,031 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,034 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,037 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,041 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,044 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,052 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,057 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,062 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,068 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,069 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,081 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,081 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,082 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,100 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,100 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,101 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,103 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,113 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,114 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,118 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,119 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,130 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,130 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,133 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,141 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,146 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,147 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,149 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,154 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,168 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,168 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,172 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,175 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,185 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,191 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,191 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,193 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,199 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,207 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,212 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,214 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,214 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:22,286 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:22] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 13:01:31,801 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "GET /socket.io/?EIO=4&transport=websocket&sid=7j2Bku3_IRD6jLyXAAAC HTTP/1.1" 200 -
+2025-04-15 13:01:31,806 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "GET /admin/panel HTTP/1.1" 200 -
+2025-04-15 13:01:31,825 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:31,826 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:01:31,828 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:01:31,842 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "GET /socket.io/?EIO=4&transport=polling&t=POvKt2_ HTTP/1.1" 200 -
+2025-04-15 13:01:31,860 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "POST /socket.io/?EIO=4&transport=polling&t=POvKt37&sid=AgdkVJYIoVgR-3CUAAAE HTTP/1.1" 200 -
+2025-04-15 13:01:31,860 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "GET /socket.io/?EIO=4&transport=polling&t=POvKt38&sid=AgdkVJYIoVgR-3CUAAAE HTTP/1.1" 200 -
+2025-04-15 13:01:31,885 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:31] "GET /socket.io/?EIO=4&transport=polling&t=POvKt3g&sid=AgdkVJYIoVgR-3CUAAAE HTTP/1.1" 200 -
+2025-04-15 13:01:37,121 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:01:37,841 - INFO - IPQS API Response Status: 200
+2025-04-15 13:01:37,842 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:01:37,853 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:37] "[32mPOST /track HTTP/1.1[0m" 302 -
+2025-04-15 13:01:37,862 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:01:38,980 - INFO - IPQS API Response Status: 200
+2025-04-15 13:01:38,980 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:01:38,996 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:38] "GET /receipt/673S3404 HTTP/1.1" 200 -
+2025-04-15 13:01:39,021 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:39] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:39,031 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:39] "[36mGET /static/uploads/receipt_images/223a7e88-9c68-4539-8d06-18ad7c65ab9a_unnamed.jpg HTTP/1.1[0m" 304 -
+2025-04-15 13:01:46,625 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:46] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:01:46,726 - INFO - 127.0.0.1 - - [15/Apr/2025 13:01:46] "[33mGET /static/assets/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-04-15 13:02:13,016 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:13] "GET /socket.io/?EIO=4&transport=websocket&sid=AgdkVJYIoVgR-3CUAAAE HTTP/1.1" 200 -
+2025-04-15 13:02:13,030 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:13] "GET /admin/change-password-page HTTP/1.1" 200 -
+2025-04-15 13:02:13,047 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:13] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:02:13,052 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:13] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:02:13,053 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:13] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:02:14,453 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:14] "[35m[1mGET /admin/create-transaction HTTP/1.1[0m" 500 -
+2025-04-15 13:02:14,473 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:14] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:02:14,474 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:14] "GET /admin/create-transaction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 13:02:14,482 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:14] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:02:14,513 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:14] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:02:18,197 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:18] "GET /admin/logs HTTP/1.1" 200 -
+2025-04-15 13:02:18,214 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:18] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:02:18,215 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:18] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:02:18,220 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:18] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:02:20,967 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:20] "[35m[1mGET /admin/create-transaction HTTP/1.1[0m" 500 -
+2025-04-15 13:02:20,989 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:20] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:02:20,990 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:20] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 13:02:21,018 - INFO - 127.0.0.1 - - [15/Apr/2025 13:02:21] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:03:47,785 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 13:03:47,847 - INFO -  * Restarting with stat
+2025-04-15 13:03:48,389 - INFO - BotDetector initialized
+2025-04-15 13:03:48,987 - WARNING -  * Debugger is active!
+2025-04-15 13:03:48,991 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:04:08,244 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:08] "[35m[1mGET /admin/create-transaction HTTP/1.1[0m" 500 -
+2025-04-15 13:04:08,342 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:08] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 13:04:08,359 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:08] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:04:08,369 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:08] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:04:08,377 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:08] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:04:10,544 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:10] "[35m[1mGET /admin/create-transaction HTTP/1.1[0m" 500 -
+2025-04-15 13:04:10,558 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:10] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:04:10,559 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:10] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 13:04:10,573 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:10] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:04:10,603 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:10] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:04:22,257 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:22] "GET /admin/logs HTTP/1.1" 200 -
+2025-04-15 13:04:22,277 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:22] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:04:22,278 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:22] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:04:22,279 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:22] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:04:25,129 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "GET /admin/panel HTTP/1.1" 200 -
+2025-04-15 13:04:25,147 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:04:25,154 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:04:25,154 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:04:25,163 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "GET /socket.io/?EIO=4&transport=polling&t=POvLXN8 HTTP/1.1" 200 -
+2025-04-15 13:04:25,173 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "POST /socket.io/?EIO=4&transport=polling&t=POvLXNG&sid=3WtOByncayrW3MTNAAAA HTTP/1.1" 200 -
+2025-04-15 13:04:25,185 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "GET /socket.io/?EIO=4&transport=polling&t=POvLXNH&sid=3WtOByncayrW3MTNAAAA HTTP/1.1" 200 -
+2025-04-15 13:04:25,206 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:25] "GET /socket.io/?EIO=4&transport=polling&t=POvLXNq&sid=3WtOByncayrW3MTNAAAA HTTP/1.1" 200 -
+2025-04-15 13:04:26,711 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:26] "GET /socket.io/?EIO=4&transport=websocket&sid=3WtOByncayrW3MTNAAAA HTTP/1.1" 200 -
+2025-04-15 13:04:28,453 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:28] "[35m[1mGET /admin/create-transaction HTTP/1.1[0m" 500 -
+2025-04-15 13:04:28,475 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:28] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:04:28,478 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:28] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 13:04:28,485 - INFO - 127.0.0.1 - - [15/Apr/2025 13:04:28] "[36mGET /admin/create-transaction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 13:04:51,182 - INFO - BotDetector initialized
+2025-04-15 13:04:51,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 13:04:51,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 13:04:51,779 - INFO -  * Restarting with stat
+2025-04-15 13:04:52,245 - INFO - BotDetector initialized
+2025-04-15 13:04:52,782 - WARNING -  * Debugger is active!
+2025-04-15 13:04:52,787 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:05:18,380 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:18] "GET /admin/create-transaction HTTP/1.1" 200 -
+2025-04-15 13:05:18,405 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:18] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:05:18,500 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:18] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:05:18,514 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:18] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:05:23,768 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:23] "GET /admin/change-password-page HTTP/1.1" 200 -
+2025-04-15 13:05:23,793 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:23] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:05:23,796 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:23] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:05:23,797 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:23] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:05:24,326 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "GET /admin/panel HTTP/1.1" 200 -
+2025-04-15 13:05:24,347 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:05:24,349 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-04-15 13:05:24,349 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:05:24,361 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "GET /socket.io/?EIO=4&transport=polling&t=POvLlq5 HTTP/1.1" 200 -
+2025-04-15 13:05:24,374 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "POST /socket.io/?EIO=4&transport=polling&t=POvLlqE&sid=12pBDkfnISoNQSZrAAAA HTTP/1.1" 200 -
+2025-04-15 13:05:24,381 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "GET /socket.io/?EIO=4&transport=polling&t=POvLlqE.0&sid=12pBDkfnISoNQSZrAAAA HTTP/1.1" 200 -
+2025-04-15 13:05:24,416 - INFO - 127.0.0.1 - - [15/Apr/2025 13:05:24] "GET /socket.io/?EIO=4&transport=polling&t=POvLlqz&sid=12pBDkfnISoNQSZrAAAA HTTP/1.1" 200 -
+2025-04-15 13:06:40,105 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 13:06:40,162 - INFO -  * Restarting with stat
+2025-04-15 13:06:40,664 - INFO - BotDetector initialized
+2025-04-15 13:06:41,251 - WARNING -  * Debugger is active!
+2025-04-15 13:06:41,254 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:06:41,927 - INFO - 127.0.0.1 - - [15/Apr/2025 13:06:41] "GET /socket.io/?EIO=4&transport=polling&t=POvM2m3 HTTP/1.1" 200 -
+2025-04-15 13:06:41,933 - INFO - 127.0.0.1 - - [15/Apr/2025 13:06:41] "POST /socket.io/?EIO=4&transport=polling&t=POvM2m9&sid=3FFYSoOzKDTfqipMAAAA HTTP/1.1" 200 -
+2025-04-15 13:06:41,936 - INFO - 127.0.0.1 - - [15/Apr/2025 13:06:41] "GET /socket.io/?EIO=4&transport=polling&t=POvM2mA&sid=3FFYSoOzKDTfqipMAAAA HTTP/1.1" 200 -
+2025-04-15 13:06:42,000 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 13:06:42,053 - INFO -  * Restarting with stat
+2025-04-15 13:06:42,553 - INFO - BotDetector initialized
+2025-04-15 13:06:43,114 - WARNING -  * Debugger is active!
+2025-04-15 13:06:43,117 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:06:43,920 - INFO - 127.0.0.1 - - [15/Apr/2025 13:06:43] "GET /socket.io/?EIO=4&transport=polling&t=POvM3FD HTTP/1.1" 200 -
+2025-04-15 13:06:43,925 - INFO - 127.0.0.1 - - [15/Apr/2025 13:06:43] "POST /socket.io/?EIO=4&transport=polling&t=POvM3FI&sid=U9yEZOy_KELSMWGrAAAA HTTP/1.1" 200 -
+2025-04-15 13:06:43,929 - INFO - 127.0.0.1 - - [15/Apr/2025 13:06:43] "GET /socket.io/?EIO=4&transport=polling&t=POvM3FJ&sid=U9yEZOy_KELSMWGrAAAA HTTP/1.1" 200 -
+2025-04-15 13:07:09,551 - INFO - BotDetector initialized
+2025-04-15 13:07:10,160 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 13:07:10,160 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 13:07:10,160 - INFO -  * Restarting with stat
+2025-04-15 13:07:10,642 - INFO - BotDetector initialized
+2025-04-15 13:07:11,212 - WARNING -  * Debugger is active!
+2025-04-15 13:07:11,216 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 13:07:11,597 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:11] "GET /socket.io/?EIO=4&transport=polling&t=POvM9bY HTTP/1.1" 200 -
+2025-04-15 13:07:11,602 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:11] "POST /socket.io/?EIO=4&transport=polling&t=POvM9_l&sid=A2V-Rt8IHLW3IiMvAAAA HTTP/1.1" 200 -
+2025-04-15 13:07:11,606 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:11] "GET /socket.io/?EIO=4&transport=polling&t=POvM9_l.0&sid=A2V-Rt8IHLW3IiMvAAAA HTTP/1.1" 200 -
+2025-04-15 13:07:18,300 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:07:18,987 - INFO - IPQS API Response Status: 200
+2025-04-15 13:07:18,987 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:07:19,030 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "GET / HTTP/1.1" 200 -
+2025-04-15 13:07:19,166 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,169 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,175 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,181 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,184 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,203 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,216 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,217 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,230 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,231 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,236 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,236 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,244 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,246 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,247 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,254 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,255 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,257 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,261 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,281 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,282 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,312 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,325 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,326 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,332 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,333 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,334 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,338 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,361 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,362 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,382 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,385 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,386 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,393 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,395 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,398 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,406 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,415 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,417 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,420 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,421 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,422 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,466 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,626 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,627 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,631 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,647 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,650 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,650 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,652 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,653 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,700 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,739 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,740 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,742 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,748 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,753 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,755 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,764 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,768 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,772 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,773 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,774 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,774 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,800 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,831 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,834 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,838 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,852 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,852 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,854 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,855 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,858 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,858 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,886 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,923 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,925 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:19,927 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:19] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:20,013 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:20] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 13:07:26,972 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:07:27,643 - INFO - IPQS API Response Status: 200
+2025-04-15 13:07:27,643 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:07:27,666 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:27] "[32mPOST /track HTTP/1.1[0m" 302 -
+2025-04-15 13:07:27,671 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:07:28,318 - INFO - IPQS API Response Status: 200
+2025-04-15 13:07:28,318 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:07:28,331 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "GET / HTTP/1.1" 200 -
+2025-04-15 13:07:28,348 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,360 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,360 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,361 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,361 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,361 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,363 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,370 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,371 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,373 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,440 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,441 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,442 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,448 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,452 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,454 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,455 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,477 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,477 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,479 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,486 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,491 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,498 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,505 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,510 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,514 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,515 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,517 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,518 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,554 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,620 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,620 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,621 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,621 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,622 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,637 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,680 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,681 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,682 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,682 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,682 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,697 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,724 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,726 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,727 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,731 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,732 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,732 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,744 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,781 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,782 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,783 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,783 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,784 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,785 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,801 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,835 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,836 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,836 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,839 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,839 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,849 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,849 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,850 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,853 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,854 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,863 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,867 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,868 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,872 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,875 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,882 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,884 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,887 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,889 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,889 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,889 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,917 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:07:28,990 - INFO - 127.0.0.1 - - [15/Apr/2025 13:07:28] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 13:11:16,387 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:11:17,093 - INFO - IPQS API Response Status: 200
+2025-04-15 13:11:17,093 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:11:17,153 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "GET / HTTP/1.1" 200 -
+2025-04-15 13:11:17,177 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,188 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,189 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,190 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,190 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,190 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,191 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,197 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,198 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,200 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,217 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,218 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,224 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,226 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,231 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,233 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,239 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,239 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,252 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,256 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,266 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,268 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,272 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,276 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,280 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,281 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,286 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,298 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,299 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,303 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,304 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,307 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,310 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,311 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,313 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,354 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,359 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,360 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,366 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,373 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,373 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,374 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,377 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,388 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,388 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,392 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,392 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,394 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,404 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,407 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,408 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,410 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,413 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,424 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,426 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,432 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,435 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,435 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,437 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,439 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,447 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,451 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,455 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,455 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,457 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,460 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,469 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,471 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,471 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,473 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,486 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,488 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,489 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,492 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,494 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,496 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,513 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,525 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,576 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 13:11:17,606 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:17] "[36mGET /static/assets/img/fav.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:24,506 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:11:25,181 - INFO - IPQS API Response Status: 200
+2025-04-15 13:11:25,181 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:11:25,185 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[32mPOST /track HTTP/1.1[0m" 302 -
+2025-04-15 13:11:25,190 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 13:11:25,818 - INFO - IPQS API Response Status: 200
+2025-04-15 13:11:25,819 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 13:11:25,832 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "GET / HTTP/1.1" 200 -
+2025-04-15 13:11:25,849 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,857 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,857 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,857 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,858 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,858 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,859 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,866 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,867 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,965 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,973 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,975 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,977 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,989 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,992 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:25,993 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:25] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,002 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,003 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,009 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,015 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,018 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,020 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,021 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,023 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,024 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,058 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,147 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,150 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,153 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,157 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,160 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,162 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,184 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,597 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,598 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,598 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,598 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,599 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,618 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,625 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,626 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,627 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,628 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,631 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,674 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,758 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,758 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,759 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,760 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,761 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,790 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,827 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,828 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,828 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,831 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,831 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,832 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,969 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,973 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,973 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,975 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,976 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,979 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:26,980 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:26] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,004 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,025 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,026 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,026 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,028 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,034 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,040 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,042 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,049 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,051 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,051 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,054 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,057 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,065 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+2025-04-15 13:11:27,088 - INFO - 127.0.0.1 - - [15/Apr/2025 13:11:27] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+2025-04-15 14:14:47,316 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:48,101 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:48,101 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:48,119 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:48] "GET /login HTTP/1.1" 200 -
+2025-04-15 14:14:48,146 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:48,146 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:48,149 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:48,969 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:48,970 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:49,004 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:49,006 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:49,006 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:49] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:49,024 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:49,035 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:49,036 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:49,051 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:49] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:49,058 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:49,073 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:49] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:49,080 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:49,827 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:49,828 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:49,851 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:49] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:49,857 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:49,874 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:49,875 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:49,886 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:49] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:49,890 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:49,903 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:49,903 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:49,916 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:49] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:49,921 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:50,455 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,469 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/img/left-icon.png HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,513 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,528 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/img/login-bg-2.png HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,590 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,591 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/img/show-hide.png HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,632 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,655 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:50,671 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,672 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,686 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,739 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,752 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/jquery.countdown.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,807 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,819 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,823 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,838 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:50,838 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:50,849 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,867 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,912 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:50,912 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:50,928 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:50,928 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:50,933 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,940 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:50] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+2025-04-15 14:14:50,951 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:50,954 - INFO - Checking IP 127.0.0.1 with IPQS API
+2025-04-15 14:14:51,437 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:51,437 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:51,488 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:51] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-15 14:14:51,718 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:51,718 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:51,728 - INFO - IPQS API Response Status: 200
+2025-04-15 14:14:51,729 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+2025-04-15 14:14:51,736 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:51] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
+2025-04-15 14:14:51,770 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:51] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
