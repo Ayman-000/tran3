@@ -3340,3 +3340,29 @@
 2025-04-15 14:14:51,729 - INFO - IP 127.0.0.1 - Country: N/A, Fraud Score: 100
 2025-04-15 14:14:51,736 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:51] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
 2025-04-15 14:14:51,770 - INFO - 127.0.0.1 - - [15/Apr/2025 14:14:51] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+2025-04-15 15:53:37,161 - INFO - 127.0.0.1 - - [15/Apr/2025 15:53:37] "GET /socket.io/?EIO=4&transport=websocket&sid=A2V-Rt8IHLW3IiMvAAAA HTTP/1.1" 200 -
+2025-04-15 16:27:28,197 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 16:27:28,348 - INFO -  * Restarting with stat
+2025-04-15 16:27:30,829 - INFO - BotDetector initialized
+2025-04-15 16:27:31,562 - WARNING -  * Debugger is active!
+2025-04-15 16:27:31,566 - INFO -  * Debugger PIN: 804-368-010
+2025-04-15 16:27:33,810 - INFO -  * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 16:27:33,867 - INFO -  * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010
+INFO:werkzeug: * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 16:27:45,702 - INFO -  * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010
+INFO:werkzeug: * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 16:30:07,075 - INFO -  * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010
+INFO:werkzeug: * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 16:33:02,747 - INFO -  * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010
+INFO:werkzeug: * Detected change in 'C:\\Users\\ayman\\OneDrive\\Bureau\\tarnfertoagain\\app.py', reloading
+2025-04-15 16:33:26,724 - INFO -  * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010

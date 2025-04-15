@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify, g, send_from_directory
+from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify, g, send_from_directory, abort
 from flask_socketio import SocketIO, emit
 from functools import wraps
 import os
@@ -13,7 +13,7 @@ import time
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
-from antibotspy.flask_antibot import AntiBotMiddleware
+import logging
 
 # Load environment variables
 load_dotenv()
@@ -26,55 +26,8 @@ app.config['UPLOAD_FOLDER'] = os.path.join('static', 'uploads', 'receipt_images'
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif'}
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Initialize anti-bot protection with development mode
-antibot = AntiBotMiddleware(app)
-
-# Configure anti-bot settings
-antibot.strict_mode = False  # Disable strict mode
-antibot.rate_limit = 1000  # Increase rate limit significantly for development
-antibot.block_duration = 60  # Reduce block duration to 1 minute
-antibot.whitelist_paths = [
-    # Static files and assets
-    '/static/*',
-    '/assets/*',
-    '/favicon.ico',
-    
-    # WebSocket endpoints
-    '/socket.io/*',
-    
-    # Main pages
-    '/',
-    '/about-us',
-    '/our-team',
-    '/contact',
-    '/login',
-    '/register',
-    '/registered',
-    '/privacy-policy',
-    '/terms-conditions',
-    
-    # Admin routes
-    '/admin',
-    '/admin/login',
-    '/admin/panel',
-    '/admin/logs',
-    '/admin/change-password-page',
-    '/admin/change-password',
-    '/admin/generate-tracking',
-    '/admin/create-transaction',
-    '/admin/antibot-stats',
-    
-    # Transaction routes
-    '/track',
-    '/receipt/*',
-    '/accept-transaction/*',
-    '/decline-transaction/*',
-    
-    # API and utility routes
-    '/crypto-ticker.js',
-    '/*.png'  # For serving PNG images
-]
-antibot.debug = True  # Enable debug mode
+# Configure logging
+logging.basicConfig(filename='antibot.log', level=logging.INFO)
 
 # Initialize SocketIO after anti-bot configuration
 socketio = SocketIO(app, 
@@ -95,59 +48,41 @@ PROTECTED_ROUTES = [
 
 # Add bot protection to specific routes
 # Decorator logic remains the same, using the configured 'antibot' instance
-def protect_route_from_bots(route_func):
-    @wraps(route_func)
-    def wrapper(*args, **kwargs):
-        # Get the IP address from the request
-        ip = request.headers.get('X-Forwarded-For', request.remote_addr)
-        if ip:
-            ip = ip.split(',')[0].strip()
-        else:
-            ip = request.remote_addr
-            
-        # Check IP quality score first
+def protect_route_from_bots(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        # Use X-Forwarded-For for Cloudflare, fallback to remote_addr
+        client_ip = request.headers.get('X-Forwarded-For', request.remote_addr).split(',')[0].strip()
+        logging.info(f"Checking IP {client_ip} with IPQS API")
+        
         try:
-            ipqs_api_key = os.environ.get('IPQS_API_KEY')
-            if ipqs_api_key:
-                url = f"https://www.ipqualityscore.com/api/json/ip/{ipqs_api_key}/{ip}?strictness=0" # Reduced strictness
-                headers = {
-                    'Accept': 'application/json',
-                    'User-Agent': 'Tranferto/1.0'
-                }
-                
-                response = requests.get(url, headers=headers, timeout=5)
-                if response.status_code == 200:
-                    data = response.json()
-                    if data.get('success', False):
-                        fraud_score = data.get('fraud_score', 0)
-                        # If fraud score is low, allow the request directly
-                        if fraud_score < 85: # Increased threshold
-                            return route_func(*args, **kwargs)
-                # If API call fails or returns non-200, log it but don't block yet
-                elif response.status_code != 200:
-                     app.logger.warning(f"IPQS API returned status {response.status_code} for IP {ip}")
-
-            else:
-                 app.logger.warning("IPQS_API_KEY not set. Skipping IP quality check.")
-                 # If no API key, we can't check score, proceed to antibot middleware protection
-                 pass
-
-        except requests.exceptions.RequestException as e:
-            app.logger.error(f"IP quality check request failed for IP {ip}: {str(e)}")
-            # If the check *itself* fails (e.g., timeout, connection error), allow the request
-            # This prevents blocking users due to external API issues.
-            return route_func(*args, **kwargs)
-        except Exception as e:
-            # Catch other potential errors during the check
-            app.logger.error(f"Unexpected error during IP quality check for IP {ip}: {str(e)}")
-            # Allow request on unexpected errors as well
-            return route_func(*args, **kwargs)
+            api_key = 'dCl7bYIbb3aQwM0GsSFW40bg2wEz7U91'
+            url = f'https://www.ipqualityscore.com/api/json/ip/{api_key}/{client_ip}'
+            response = requests.get(url, timeout=5)
+            logging.info(f"IPQS API Response Status: {response.status_code}")
             
-        # If IPQS check didn't explicitly allow (high fraud score or no API key),
-        # fall back to the AntiBotMiddleware's protection mechanisms (rate limiting etc.)
-        # The middleware itself will decide whether to block based on its rules.
-        return antibot.protect(route_func)(*args, **kwargs)
-    return wrapper
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('success', False):
+                    fraud_score = data.get('fraud_score', 0)
+                    country = data.get('country_code', 'N/A')
+                    logging.info(f"IP {client_ip} - Country: {country}, Fraud Score: {fraud_score}")
+                    
+                    if fraud_score >= 85:
+                        abort(403, description="Access denied - Bot or suspicious activity detected")
+                else:
+                    logging.error(f"IPQS API failed for IP {client_ip}: {data.get('message', 'No error message')}")
+                    # Allow request to avoid blocking real users
+            else:
+                logging.error(f"IPQS API error for IP {client_ip}: Status {response.status_code}")
+                # Allow request
+                
+        except (requests.RequestException, json.JSONDecodeError, ValueError) as e:
+            logging.error(f"IPQS API error for IP {client_ip}: {str(e)}")
+            # Allow request to avoid blocking real users
+            
+        return f(*args, **kwargs)
+    return decorated_function
 
 # Admin credentials
 ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', 'admin123')
@@ -476,7 +411,12 @@ def handle_ping():
         active_visitors[ip]['last_activity'] = datetime.now(timezone.utc).isoformat()
         emit('pong')
 
-# Serve static files from the assets directory
+# Serve static files
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
+
+# Serve assets
 @app.route('/assets/<path:filename>')
 def serve_assets(filename):
     return send_from_directory('static/assets', filename)
