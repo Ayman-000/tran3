@@ -1,0 +1,1829 @@
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/style-rtl.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/plugin/slick.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/custom-family.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/fontawesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/img/logojb.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/plugin/animate.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/plugin/nice-select.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/img/ban-frame-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/plugin/magnific-popup.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/img/ban-frame-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/img/ban-frame-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/js/fontawesome.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:01] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/ban-frame-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/proper-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/plugin/plugin.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/plugin/wow.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/plugin/slick.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/features-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/features-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/features-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/video-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/ban-right.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/features-icon-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-6.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-7.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/left-quote.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/sp.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/customers-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/fr.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/gr.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/mb.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/ew.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/us.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/flag.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/img/cnd.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:02] "GET /static/assets/img/choose-us-icon-7.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/img/jp.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/choose-us-icon-5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/choose-us-icon-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/choose-us-icon-6.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/choose-us-icon-8.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/affiliate-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/choose-us-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/payment-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/payment-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/payment-icon-5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/choose-us-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/how-works-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/how-works-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/payment-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/preloader.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/payment-icon-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:03] "GET /static/assets/img/how-works-Illu.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/img/choose-us-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/img/banner-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/img/send.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/img/cus-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/img/how-works-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/img/arrow-right.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/js/crypto-ticker.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:04] "GET /static/assets/webfonts/own-family.woff HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:15] "[32mPOST /track HTTP/1.1[0m" 302 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:16] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "GET /about-us HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "GET /static/assets/img/right-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "GET /static/assets/img/inner-page-banner.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "GET /static/assets/img/index3-overlay.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:20] "GET /static/assets/img/about-us-banner.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:22] "GET /our-team HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/img/inner-page-banner.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/img/index3-overlay.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/img/right-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "GET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:23] "GET /assets/img/about-us-banner.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:29] "[32mGET /contact.html HTTP/1.1[0m" 302 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:30] "GET /contact HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:31] "GET /assets/css/custom-family.css HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:31] "GET /assets/css/fontawesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:31] "GET /assets/css/plugin/slick.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:31] "GET /assets/css/plugin/nice-select.css HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /assets/css/plugin/magnific-popup.css HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/sms-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-banner-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-banner-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/call-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-banner-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-user-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-email-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-com-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:32] "GET /static/assets/img/contact-phone-icon.png HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:33] "GET /assets/css/plugin/animate.css HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:33] "GET /assets/css/style.css HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:33] "[33mGET /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js HTTP/1.1[0m" 404 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:33] "GET /assets/css/style-rtl.min.css HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:34] "GET /assets/img/inner-page-banner.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:34] "GET /assets/img/right-icon.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:34] "GET /assets/img/preloader.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:34] "GET /assets/img/index3-overlay.png HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:34] "GET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:34] "GET /assets/img/contact-us-illu.png HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:35] "GET /assets/img/contact-form-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:35] "GET /assets/img/arrow-right.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:42] "GET /login HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:43] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:43] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:43] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "GET /static/assets/img/show-hide.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "GET /static/assets/img/left-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "GET /static/assets/img/login-bg-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "GET /static/assets/js/plugin/jquery.countdown.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:44] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:45] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:45] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:45] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:46] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:46] "GET /assets/img/check-4.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:48] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:50] "GET /register HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:52] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:52] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:52] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:52] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:52] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:52] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:53] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:53] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:53] "GET /assets/img/logo.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:53] "GET /assets/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:53] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:53] "GET /assets/img/left-icon.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:54] "GET /assets/img/feature-list-icon-2.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:54] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:54] "GET /assets/img/feature-list-icon-3.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:54] "GET /assets/img/feature-list-icon-1.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:54] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:54] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:55] "GET /assets/img/show-hide.png HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:55] "GET /assets/js/proper-min.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:55] "GET /assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:55] "GET /assets/js/plugin/slick.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:56] "GET /assets/js/fontawesome.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:56] "GET /assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:56] "GET /assets/js/plugin/apexcharts.min.js HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:56] "GET /assets/js/plugin/jquery.nice-select.min.js HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:57] "GET /assets/js/plugin/jquery.countdown.js HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:57] "GET /assets/js/plugin/wow.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:57] "GET /assets/js/plugin/plugin.js HTTP/1.1" 200 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:36:57] "GET /assets/js/main.js HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:01] "[32mGET /index.html HTTP/1.1[0m" 302 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:37:02] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:25] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:25] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:28] "POST /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:28] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:28] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "[32mGET /admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "GET /socket.io/?EIO=4&transport=polling&t=PP4rBVy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "POST /socket.io/?EIO=4&transport=polling&t=PP4rBW2&sid=wNacLEnV6_BLhLEUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:33] "GET /socket.io/?EIO=4&transport=polling&t=PP4rBW4&sid=wNacLEnV6_BLhLEUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:44] "GET /socket.io/?EIO=4&transport=websocket&sid=wNacLEnV6_BLhLEUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:44] "GET /admin/change-password-page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:44] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:44] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:44] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:45] "GET /admin/create-transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:45] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:45] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:45] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:46] "GET /admin/logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:46] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:46] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:46] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:50] "[32mGET /admin/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:50] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:50] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:50] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "[32mGET /admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "GET /socket.io/?EIO=4&transport=polling&t=PP4rGq9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "POST /socket.io/?EIO=4&transport=polling&t=PP4rGqI&sid=7gojro8cRRcyNFbLAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "GET /socket.io/?EIO=4&transport=polling&t=PP4rGqJ&sid=7gojro8cRRcyNFbLAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:55] "GET /socket.io/?EIO=4&transport=polling&t=PP4rGqj&sid=7gojro8cRRcyNFbLAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:38:58] "GET /socket.io/?EIO=4&transport=websocket&sid=7gojro8cRRcyNFbLAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:39:00] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:39:00] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:39:00] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:58] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:40:59] "GET /static/assets/img/fav.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:00] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:00] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:00] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:20] "GET /contact HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/assets/img/contact-banner-icon-1.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/assets/img/sms-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/assets/img/call-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/assets/img/contact-banner-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:21] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/img/contact-banner-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/img/contact-user-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/img/contact-email-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/img/contact-phone-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/img/contact-com-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[33mGET /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:22] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:24] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:24] "[36mGET /assets/img/contact-form-bg.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:24] "[36mGET /assets/img/index3-overlay.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:24] "[36mGET /assets/img/right-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:24] "[36mGET /assets/img/inner-page-banner.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:24] "[36mGET /assets/img/contact-us-illu.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:25] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:25] "[36mGET /assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:28] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "GET /about-us HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/about-us-banner.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/index3-overlay.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/inner-page-banner.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/img/right-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:33] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:39] "GET /contact HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/img/contact-banner-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/img/sms-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/img/call-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/img/contact-banner-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:40] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/img/contact-banner-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/img/contact-user-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/img/contact-email-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/img/contact-phone-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/img/contact-com-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:41] "[33mGET /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js HTTP/1.1[0m" 404 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:42] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:43] "[36mGET /assets/img/inner-page-banner.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:43] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:43] "[36mGET /assets/img/right-icon.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:43] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:43] "[36mGET /assets/img/contact-form-bg.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:43] "[36mGET /assets/img/index3-overlay.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:44] "[36mGET /assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:44] "[36mGET /assets/img/contact-us-illu.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:46] "GET /login HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/img/left-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/img/login-bg-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/img/show-hide.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/jquery.countdown.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:47] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:48] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:48] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:48] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:50] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:50] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:41:50] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:05] "GET /register HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:06] "[36mGET /assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:06] "[36mGET /assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:06] "[36mGET /assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:07] "[36mGET /assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:07] "[36mGET /assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:07] "[36mGET /assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:07] "[36mGET /assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:07] "[36mGET /assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:07] "[36mGET /assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:08] "[36mGET /assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:08] "[36mGET /assets/img/left-icon.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:08] "[36mGET /assets/img/logo.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:09] "[36mGET /assets/img/feature-list-icon-2.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:09] "[36mGET /assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:09] "[36mGET /assets/img/feature-list-icon-1.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:09] "[36mGET /assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:09] "[36mGET /assets/img/check-4.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:09] "[36mGET /assets/img/show-hide.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:10] "[36mGET /assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:10] "[36mGET /assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:10] "[36mGET /assets/img/feature-list-icon-3.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:10] "[36mGET /assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:10] "[36mGET /assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:11] "[36mGET /assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:11] "[36mGET /assets/js/plugin/apexcharts.min.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:11] "[36mGET /assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:11] "[36mGET /assets/js/plugin/jquery.countdown.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:11] "[36mGET /assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:12] "[36mGET /assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:12] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:31] "[33mGET /registred.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:37] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:37] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:37] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "[32mGET /admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "GET /socket.io/?EIO=4&transport=polling&t=PP4s8wN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "POST /socket.io/?EIO=4&transport=polling&t=PP4s8wb&sid=0xiY8Q4lhx5a6xUNAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:45] "GET /socket.io/?EIO=4&transport=polling&t=PP4s8wc&sid=0xiY8Q4lhx5a6xUNAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "GET /socket.io/?EIO=4&transport=websocket&sid=0xiY8Q4lhx5a6xUNAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4s9Qa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "POST /socket.io/?EIO=4&transport=polling&t=PP4s9Qi&sid=rtJgI-GTHxQate6MAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4s9Qi.0&sid=rtJgI-GTHxQate6MAAAG HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:52] "[32mGET /index.html HTTP/1.1[0m" 302 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:53] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "GET /socket.io/?EIO=4&transport=websocket&sid=rtJgI-GTHxQate6MAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "GET /socket.io/?EIO=4&transport=polling&t=PP4sBcG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "POST /socket.io/?EIO=4&transport=polling&t=PP4sBcq&sid=STulZJNqbyZCMA9JAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "GET /socket.io/?EIO=4&transport=polling&t=PP4sBcr&sid=STulZJNqbyZCMA9JAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:56] "GET /socket.io/?EIO=4&transport=polling&t=PP4sBd2&sid=STulZJNqbyZCMA9JAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "GET /socket.io/?EIO=4&transport=websocket&sid=STulZJNqbyZCMA9JAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "GET /socket.io/?EIO=4&transport=polling&t=PP4sB-y HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "POST /socket.io/?EIO=4&transport=polling&t=PP4sB_W&sid=UbF96866X_8DICvoAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:42:57] "GET /socket.io/?EIO=4&transport=polling&t=PP4sB_W.0&sid=UbF96866X_8DICvoAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "GET /socket.io/?EIO=4&transport=websocket&sid=UbF96866X_8DICvoAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "GET /socket.io/?EIO=4&transport=polling&t=PP4sCfG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "POST /socket.io/?EIO=4&transport=polling&t=PP4sCfQ&sid=4ojBD4hP3YEICHZwAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "GET /socket.io/?EIO=4&transport=polling&t=PP4sCfS&sid=4ojBD4hP3YEICHZwAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:00] "GET /socket.io/?EIO=4&transport=polling&t=PP4sCg8&sid=4ojBD4hP3YEICHZwAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "GET /socket.io/?EIO=4&transport=websocket&sid=4ojBD4hP3YEICHZwAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "GET /socket.io/?EIO=4&transport=polling&t=PP4sD_A HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "POST /socket.io/?EIO=4&transport=polling&t=PP4sD_o&sid=hm7aReIhV5ETVhYMAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:05] "GET /socket.io/?EIO=4&transport=polling&t=PP4sD_o.0&sid=hm7aReIhV5ETVhYMAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "GET /socket.io/?EIO=4&transport=websocket&sid=hm7aReIhV5ETVhYMAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "GET /socket.io/?EIO=4&transport=polling&t=PP4sEPM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "POST /socket.io/?EIO=4&transport=polling&t=PP4sEPg&sid=3_YVAUzcunFBpsi1AAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "GET /socket.io/?EIO=4&transport=polling&t=PP4sEPg.0&sid=3_YVAUzcunFBpsi1AAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:07] "GET /socket.io/?EIO=4&transport=polling&t=PP4sEQB&sid=3_YVAUzcunFBpsi1AAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "GET /socket.io/?EIO=4&transport=websocket&sid=3_YVAUzcunFBpsi1AAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "GET /socket.io/?EIO=4&transport=polling&t=PP4sEX- HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "POST /socket.io/?EIO=4&transport=polling&t=PP4sEZ2&sid=UIsTOZ2X_ehyWgLzAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:08] "GET /socket.io/?EIO=4&transport=polling&t=PP4sEZ2.0&sid=UIsTOZ2X_ehyWgLzAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:11] "GET /socket.io/?EIO=4&transport=websocket&sid=UIsTOZ2X_ehyWgLzAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:11] "GET /admin/change-password-page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:11] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:11] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:11] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:14] "GET /admin/create-transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:14] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:14] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:43:14] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "[32mPOST /admin/create-transaction HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4scp1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "POST /socket.io/?EIO=4&transport=polling&t=PP4scpm&sid=-NZ3bmFoHwT9mA2dAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4scpo&sid=-NZ3bmFoHwT9mA2dAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:44:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4scpw&sid=-NZ3bmFoHwT9mA2dAAAU HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:09] "[32mPOST /track HTTP/1.1[0m" 302 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:10] "GET /receipt/6T584478 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:10] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:10] "GET /static/uploads/receipt_images/86696a97-5550-4940-be7c-f5f38ba8a912_unnamed.jpg HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:root:Checking IP 127.0.0.1 with IPQS API
+INFO:root:IPQS API Response Status: 200
+INFO:root:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:42] "[31m[1mPOST /accept-transaction/6T584478 HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "GET /socket.io/?EIO=4&transport=websocket&sid=-NZ3bmFoHwT9mA2dAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4srOi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "POST /socket.io/?EIO=4&transport=polling&t=PP4srOz&sid=ID-sxeyLHh6NFgibAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4srOz.0&sid=ID-sxeyLHh6NFgibAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:47] "GET /socket.io/?EIO=4&transport=polling&t=PP4srPF&sid=ID-sxeyLHh6NFgibAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "GET /socket.io/?EIO=4&transport=websocket&sid=ID-sxeyLHh6NFgibAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "GET /socket.io/?EIO=4&transport=polling&t=PP4srx3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "POST /socket.io/?EIO=4&transport=polling&t=PP4srxE&sid=tiVH7BJGuPMJoqCzAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "GET /socket.io/?EIO=4&transport=polling&t=PP4srxF&sid=tiVH7BJGuPMJoqCzAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:49] "GET /socket.io/?EIO=4&transport=polling&t=PP4srxz&sid=tiVH7BJGuPMJoqCzAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=websocket&sid=tiVH7BJGuPMJoqCzAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ss65 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "POST /socket.io/?EIO=4&transport=polling&t=PP4ss6F&sid=2XsvmN_ON43CoxF2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ss6G&sid=2XsvmN_ON43CoxF2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=websocket&sid=2XsvmN_ON43CoxF2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ssCL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "POST /socket.io/?EIO=4&transport=polling&t=PP4ssCW&sid=59sfZlwUZaetav0jAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ssCX&sid=59sfZlwUZaetav0jAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=websocket&sid=59sfZlwUZaetav0jAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ssEM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "POST /socket.io/?EIO=4&transport=polling&t=PP4ssEc&sid=5uCRwtDn7kP_bjXsAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ssEc.0&sid=5uCRwtDn7kP_bjXsAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=websocket&sid=5uCRwtDn7kP_bjXsAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ssGQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "POST /socket.io/?EIO=4&transport=polling&t=PP4ssGd&sid=lSRRcu6F53RwohPVAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:45:50] "GET /socket.io/?EIO=4&transport=polling&t=PP4ssGe&sid=lSRRcu6F53RwohPVAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:09] "GET /socket.io/?EIO=4&transport=websocket&sid=lSRRcu6F53RwohPVAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:09] "[32mGET /admin/panel HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:09] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:09] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:09] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "GET /socket.io/?EIO=4&transport=polling&t=PP4sy1u HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "POST /socket.io/?EIO=4&transport=polling&t=PP4sy24&sid=U3-ddOuseun5wOA_AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:14] "GET /socket.io/?EIO=4&transport=polling&t=PP4sy25&sid=U3-ddOuseun5wOA_AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "GET /socket.io/?EIO=4&transport=websocket&sid=U3-ddOuseun5wOA_AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "GET /socket.io/?EIO=4&transport=polling&t=PP4syhL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "POST /socket.io/?EIO=4&transport=polling&t=PP4syhY&sid=-9LycPvI-8prUfCFAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "GET /socket.io/?EIO=4&transport=polling&t=PP4syhZ&sid=-9LycPvI-8prUfCFAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:17] "GET /socket.io/?EIO=4&transport=polling&t=PP4syhx&sid=-9LycPvI-8prUfCFAAAk HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:root:Checking IP 127.0.0.1 with IPQS API
+INFO:root:IPQS API Response Status: 200
+INFO:root:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 18:46:29] "[31m[1mPOST /accept-transaction/6T584478 HTTP/1.1[0m" 403 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 804-368-010
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/plugin/animate.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/plugin/nice-select.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/custom-family.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/plugin/magnific-popup.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/plugin/slick.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/style-rtl.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/css/fontawesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/ban-frame-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/ban-frame-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/logojb.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/ban-frame-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/fontawesome.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/ban-frame-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/proper-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/plugin/slick.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/plugin/wow.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/plugin/plugin.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/ban-right.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/video-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/features-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/features-icon-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/features-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/features-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-6.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-7.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/customers-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/left-quote.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/sp.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/jp.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/fr.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/gr.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/flag.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/ew.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/us.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/mb.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/choose-us-icon-7.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/img/cnd.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/choose-us-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/choose-us-icon-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/choose-us-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/choose-us-icon-5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:15] "GET /static/assets/img/choose-us-icon-6.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/choose-us-icon-8.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/affiliate-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/choose-us-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/payment-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/payment-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/payment-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/payment-icon-4.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/payment-icon-5.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/how-works-icon-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/how-works-icon-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/how-works-icon-3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/js/crypto-ticker.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/how-works-Illu.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/send.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/preloader.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/banner-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/cus-bg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/img/arrow-right.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:16] "GET /static/assets/webfonts/own-family.woff HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/plugin/nice-select.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/plugin/slick.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/custom-family.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/plugin/magnific-popup.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/plugin/animate.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/css/style-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/ban-frame-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/ban-frame-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/ban-frame-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/ban-frame-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/proper-min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/fontawesome.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/plugin/jquery.magnific-popup.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/plugin/jquery.nice-select.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/plugin/slick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/plugin/wow.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/plugin/plugin.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/js/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/video-icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/ban-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/features-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/features-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/features-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/features-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/customers-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/left-quote.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/sp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/jp.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/fr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/gr.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/us.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/ew.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/flag.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/cnd.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/img/mb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-7.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-6.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/choose-us-icon-8.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/affiliate-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/preloader.gif HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/banner-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/payment-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/payment-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/payment-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/payment-icon-4.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/payment-icon-5.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/how-works-icon-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/how-works-Illu.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/how-works-icon-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/how-works-icon-3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/send.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/js/crypto-ticker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/cus-bg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/img/arrow-right.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:30] "[36mGET /static/assets/webfonts/own-family.woff HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:35] "GET /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:35] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:35] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:39] "POST /admin/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:39] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:39] "[36mGET /static/img/logojb.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "[32mGET /admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "GET /admin/panel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "[33mGET /static/assets/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "GET /socket.io/?EIO=4&transport=polling&t=PP9H2KH HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "POST /socket.io/?EIO=4&transport=polling&t=PP9H2KL&sid=Q58-erqPTdguYgpdAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:44] "GET /socket.io/?EIO=4&transport=polling&t=PP9H2KM&sid=Q58-erqPTdguYgpdAAAA HTTP/1.1" 200 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:56] "[32mPOST /track HTTP/1.1[0m" 302 -
+INFO:app:Checking IP 127.0.0.1 with IPQS API
+INFO:app:IPQS API Response Status: 200
+INFO:app:IP 127.0.0.1 - Country: N/A, Fraud Score: 100
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:56] "GET /receipt/6T584478 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:57] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2025 15:18:57] "GET /static/uploads/receipt_images/86696a97-5550-4940-be7c-f5f38ba8a912_unnamed.jpg HTTP/1.1" 200 -

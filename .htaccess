@@ -1,0 +1,39 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Set the base directory
+RewriteBase /
+
+# Prevent directory listing
+Options -Indexes
+
+# Allow access to public directory
+<Directory "public">
+    Options -Indexes +FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+# Handle PHP files
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+# Redirect all requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Security headers
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+# PHP settings
+php_flag display_errors on
+php_value error_reporting E_ALL
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 300
+php_value max_input_time 300 

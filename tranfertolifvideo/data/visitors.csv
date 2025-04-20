@@ -1,0 +1,2 @@
+ip_address,page,timestamp,fraud_score,country_code
+127.0.0.1,/receipt/6T584478,2025-04-18T14:18:56.125125+00:00,100,N/A

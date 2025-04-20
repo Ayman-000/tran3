@@ -1,0 +1,238 @@
+<?php
+session_start();
+?>
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tranferto - About Us</title>
+
+    <link rel="shortcut icon" href="/assets/img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="/assets/css/custom-family.css">
+    <link rel="stylesheet" href="/assets/css/plugin/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style-rtl.min.css" id="rtl-stylesheet" disabled>
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar d-flex navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="/">
+                            <img src="/img/logojb.png" class="logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="/" role=""
+                                        data-bs-toggle="">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/about-us">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/our-team">Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                            <div class="right-area header-action d-flex align-items-center">
+                                <a href="/login" class="cmn-btn login">Login</a>
+                                <a href="/register" class="cmn-btn">Sign up</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- banner-section start -->
+    <section class="banner-section inner-pages about-us">
+        <div class="overlay">
+            <div class="banner-content pb-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-10">
+                            <div class="main-content">
+                                <h1>About Us</h1>
+                                <div class="breadcrumb-area">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb d-flex gap-1 align-items-center">
+                                            <li class="breadcrumb-item p-0 position-relative"><a href="/">Home</a></li>
+                                            <li class="breadcrumb-item p-0 position-relative"><a href="javascript:void(0)">Pages</a></li>
+                                            <li class="breadcrumb-item p-0 position-relative active" aria-current="page">About Us</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="top-area">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <img src="/assets/img/about-us-banner.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- About Us Content Start -->
+    <section class="about-content">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 d-flex justify-content-center">
+                        <div class="section-header text-center">
+                            <h2 class="title">Our Story</h2>
+                            <p>Tranferto was founded with a simple mission: to make money transfer accessible, affordable, and secure for everyone around the world.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="content-area">
+                            <p>At Tranferto, we believe that sending money should be as easy as sending a text message. Our platform enables individuals and businesses to transfer funds globally with minimal fees and maximum security.</p>
+                            
+                            <p>Since our inception, we've been committed to leveraging the latest technology, including blockchain and cryptocurrencies, to revolutionize the way people transfer value across borders.</p>
+                            
+                            <p>Our team of financial experts and technology enthusiasts works tirelessly to improve our services and expand our global network, ensuring that our users can send money to over 100 countries with ease.</p>
+                            
+                            <h4>Our Mission</h4>
+                            <p>To provide fast, secure, and affordable international money transfer solutions that connect people and businesses worldwide, regardless of geographical boundaries.</p>
+                            
+                            <h4>Our Vision</h4>
+                            <p>To be the world's most trusted and innovative money transfer platform, empowering people to share financial resources seamlessly across the globe.</p>
+                            
+                            <h4>Our Values</h4>
+                            <ul>
+                                <li><strong>Trust & Security:</strong> We prioritize the security of your money and personal information above all else.</li>
+                                <li><strong>Innovation:</strong> We constantly embrace new technologies to improve our services.</li>
+                                <li><strong>Inclusivity:</strong> We strive to make financial services accessible to everyone, everywhere.</li>
+                                <li><strong>Transparency:</strong> We believe in clear, honest communication about our fees and services.</li>
+                                <li><strong>Customer-Centricity:</strong> Our customers' needs drive every decision we make.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Content End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-section">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row wrapper">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-area">
+                            <h5>COMPANY</h5>
+                            <ul class="items">
+                                <li><a href="/about-us">About Us</a></li>
+                                <li><a href="/our-team">Management Team</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-area">
+                            <h5>Support</h5>
+                            <ul class="items">
+                                <li><a href="/contact">Contact Us</a></li>
+                                <li><a href="/login">Your account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="single-area">
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-area">
+                            <h5>Subscribe to our news</h5>
+                            <p>Get the latest happenings and tips from Tranferto</p>
+                            <form action="#">
+                                <div class="subscribe d-flex">
+                                    <input type="email" placeholder="Your Email Address">
+                                    <button><img src="/assets/img/send.png" alt="icon"></button>
+                                </div>
+                            </form>
+                            <div class="social">
+                                <ul class="d-flex">
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="main-content">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-6 col-md-8 cus-order d-flex justify-content-md-start justify-content-center">
+                            <div class="left-area">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/proper-min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/fontawesome.js"></script>
+    <script src="/assets/js/plugin/slick.js"></script>
+    <script src="/assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/plugin/wow.min.js"></script>
+    <script src="/assets/js/plugin/plugin.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/js/crypto-ticker.js" defer></script>
+</body>
+</html> 
